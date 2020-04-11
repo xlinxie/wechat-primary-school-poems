@@ -1,0 +1,23 @@
+<view class="index-container">
+  <form class="searchbar">
+    <image class="icon icon-search" src="/public/images/icon-search.png" />
+    <input
+      type="text"
+      placeholder="搜索古诗名、作者"
+      placeholder-class="placeholder"
+      bindtap="handleSearch"
+    />
+  </form>
+  <view class="content">
+    <view class="grades">
+      <view
+        class="grade"
+        wx:for="{{grades}}"
+        wx:for-item="grade"
+        wx:key="title"
+      >
+        <image class="cover" src="{{grade.cover}}" />
+      </view>
+    </view>
+  </view>
+</view>
