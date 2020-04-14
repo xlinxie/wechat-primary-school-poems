@@ -1,4 +1,9 @@
-<view class="index-container">
+<scroll-view
+  class="index-container"
+  scroll-y="true"
+  scroll-with-animation="true"
+  style="min-height: 100vh;"
+>
   <form class="searchbar">
     <image class="icon icon-search" src="/public/images/icon-search.png" />
     <input
@@ -15,9 +20,10 @@
         wx:for="{{grades}}"
         wx:for-item="grade"
         wx:key="title"
+        bindtap="navToGrade"
       >
         <image class="cover" src="{{grade.cover}}" />
       </view>
     </view>
   </view>
-</view>
+</scroll-view>

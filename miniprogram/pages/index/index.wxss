@@ -1,5 +1,11 @@
+.index-container {
+ padding-top: 96rpx;
+}
 .searchbar {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,17 +39,18 @@ input.placeholder {
 .grades {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .grade {
   display: flex;
   justify-content: center;
-  margin: 80rpx 0;
-  flex-basis: 50%;
+  margin: 56rpx 40rpx;
+  flex-basis: 240rpx;
 }
 .cover {
   display: flex;
   width: 240rpx;
   height: 320rpx;
+  box-shadow: 0 16rpx 32rpx 0 rgba(0,0,0,0.12);
 }

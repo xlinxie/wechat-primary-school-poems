@@ -1,4 +1,6 @@
 //index.js
+import Pages from '../../pages';
+
 Page({
   data: {
     grades: [
@@ -27,6 +29,12 @@ Page({
           cover: '/public/images/cover/6.png'
       },
     ]
+  },
+
+  navToGrade: function() {
+    wx.navigateTo({
+      url: Pages.poems.index.path,
+    });
   },
 
   onLoad: function() {

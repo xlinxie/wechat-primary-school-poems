@@ -1,6 +1,8 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/poems/index",
+    "pages/poems/content"
   ],
   "window": {
     "backgroundColor": "#fafafa",

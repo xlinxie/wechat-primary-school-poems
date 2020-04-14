@@ -1,0 +1,160 @@
+.poems-content-container {
+  padding: 0 32rpx 64rpx;
+}
+
+.poem-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 78rpx;
+  color: #27282B;
+}
+
+.poem-header .title {
+  color: #27282B;
+  font-size: 56rpx;
+  font-weight: 400;
+}
+
+.poem-header .author {
+  margin-top: 16rpx;
+  font-size: 32rpx;
+}
+
+.poem-header .btn-read {
+  position: fixed;
+  top: 94rpx;
+  right: 16rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 144rpx;
+  width: 144rpx;
+  line-height: 28rpx;
+  color: #27282B;
+  font-size: 20rpx;
+  font-weight: 500;
+}
+
+.btn-read .icon {
+  margin-top: 20rpx;
+  height: 56rpx;
+  width: 56rpx;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40rpx;
+  margin-bottom: 132rpx;
+}
+
+.lines .line {
+  display: flex;
+  align-items: center;
+  margin: 16rpx 0;
+}
+
+.line .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 112rpx;
+  width: 80rpx;
+  margin: 0 16rpx;
+}
+
+.wrapper .pinyin {
+  display: flex;
+  align-items: center;
+  height: 40rpx;
+  color: #949a9e;
+  line-height:40px;
+}
+
+.wrapper .word {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2rpx solid rgba(228,229,231,1);
+  height: 76rpx;
+  min-height: 78rpx;
+  width: 76rpx;
+  line-height: 66rpx;
+  color: #27282B;
+  font-size: 48rpx;
+  background: linear-gradient(90deg, #E4E5E7, #E4E5E7 75%, transparent 75%, transparent 100%) repeat-x 0 center / 20rpx 2rpx,
+  linear-gradient(#E4E5E7, #E4E5E7 75%, transparent 75%, transparent 100%) repeat-y center 0 / 2rpx 20rpx;
+}
+
+.annotations-panel {
+  display: flex;
+  margin-bottom: 32rpx;
+  width: 100%;
+}
+
+.annotations-panel .header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  font-weight: bold;
+}
+
+.annotations-panel .annotations {
+  padding: 16rpx;
+}
+
+.annotations .annotation {
+  margin: 16rpx;
+}
+
+.translation-panel {
+  display: flex;
+  width: 100%;
+}
+
+.translation-panel .translation {
+  padding: 32rpx;
+}
+
+.illustration {
+  margin: 32rpx auto 200rpx;
+  width: 100%;
+  height: 344rpx;
+}
+
+.illustration image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.footer .btn-share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 288rpx;
+  height: 96rpx;
+  margin: 132rpx auto 32rpx;
+  background: #236BF4;
+  box-shadow: 0 8rpx 16rpx 0 rgba(35,107,244,0.4);
+  border-radius: 48rpx;
+  border: 4rpx solid rgba(41,57,88,1);
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+
+.footer .desc {
+  color: #949A9E;
+  font-size: 26rpx;
+  text-align: center;
+}

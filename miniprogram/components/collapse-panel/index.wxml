@@ -1,0 +1,8 @@
+<view class="collapse-panel {{open ? 'panel--open' : ''}}">
+  <view class="panel-header" bindtap="toggleCollapse">
+    <slot name="header"></slot>
+  </view>
+  <view class="panel-content" wx:if="{{open}}">
+    <slot name="content"></slot>
+  </view>
+</view>

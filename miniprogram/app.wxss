@@ -24,3 +24,7 @@ button::after {
   align-items: center;
   box-sizing: border-box;
 }
+
+view {
+  box-sizing: border-box;
+}
