@@ -26,6 +26,8 @@
         wx:for="{{result}}"
         wx:key="title"
         bindtap="navToContent"
+        data-id="{{item.id}}"
+        data-grade="{{item.grade}}"
       >
         <text class="counter">{{index + 1}}</text>
         <view class="wrapper">

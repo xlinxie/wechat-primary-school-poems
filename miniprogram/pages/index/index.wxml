@@ -21,10 +21,9 @@
       <view
         class="grade"
         wx:for="{{grades}}"
-        wx:for-item="grade"
         wx:key="title"
         bindtap="navToGrade"
-        data-path="{{grade.path}}"
+        data-grade="{{index}}"
       >
         <image class="cover" src="/public/images/cover/{{index + 1}}.png" />
       </view>

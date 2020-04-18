@@ -1,4 +1,4 @@
-import Pages from '../../pages';
+import Pages from '../../../pages';
 
 Page({
   data: {
@@ -16,7 +16,7 @@ Page({
       getApp().globalData.audioContext = audioCtx;
     }
     if (!playAudio) {
-      audioCtx.src = `./audios/${title}.mp3`;
+      audioCtx.src = `/pages/grades/one/audios/${title}.mp3`;
       audioCtx.onPlay(() => {
         this.setData({ playAudio: true });
       });

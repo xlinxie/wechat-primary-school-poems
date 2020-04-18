@@ -1,45 +1,46 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/grades/one/index",
-    "pages/grades/two/index",
+    "pages/poems/index",
     "pages/poems/content",
-    "pages/search/result"
+    "pages/search/result",
+    "pages/grades/one/content",
+    "pages/grades/two/content"
   ],
   "subpackages": [
     {
       "name": "grade3",
       "root": "pages/grades/three",
       "pages": [
-        "index"
+        "content"
       ]
     },
     {
       "name": "grade4",
       "root": "pages/grades/four",
       "pages": [
-        "index"
+        "content"
       ]
     },
     {
       "name": "grade5",
       "root": "pages/grades/five",
       "pages": [
-        "index"
+        "content"
       ]
     },
     {
       "name": "grade6",
       "root": "pages/grades/six",
       "pages": [
-        "index"
+        "content"
       ]
     }
   ],
   "preloadRule": {
-    "pages/index/index": {
+    "pages/poems/index": {
       "network": "all",
-      "packages": ["grade1", "grade2", "grade3", "grade4", "grade5", "grade6"]
+      "packages": ["grade3", "grade4", "grade5", "grade6"]
     }
   },
   "window": {

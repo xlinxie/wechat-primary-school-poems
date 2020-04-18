@@ -1,26 +1,13 @@
 //index.js
 import Pages from '../../pages';
+import Poems from '../../utils/poems';
 
 Page({
   data: {
     volumes: ['上册', '下册'],
     volIndex: 0,
-    tocs: [
-      [
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-      ],
-      [
-        { title: '静夜思', author: '李白', dynasty: '唐' },
-        { title: '静夜思', author: '李白', dynasty: '唐' },
-        { title: '静夜思', author: '李白', dynasty: '唐' },
-        { title: '静夜思', author: '李白', dynasty: '唐' },
-        { title: '静夜思', author: '李白', dynasty: '唐' },
-      ]
-    ]
+    tocs: [[], []],
+    pages: Object.keys(Pages.grades).map((key) => Pages.grades[key].path)
   },
 
   switchVol: function(e) {
@@ -29,13 +16,34 @@ Page({
       this.setData({ volIndex });
     }
   },
-  navToContent: function() {
-    wx.navigateTo({
-      url: Pages.poems.content.path
-    });
+  navToContent: function(e) {
+    const { title } = e.currentTarget.dataset;
+    if (!title) return;
+
+    const { volIndex, pages, poems } = this.data;
+    const grade = getApp().globalData.grade;
+    getApp().globalData.poem = poems[volIndex].find((poem) => poem.title === title);
+    wx.navigateTo({ url: pages[grade] });
   },
 
   onLoad: function() {
-
+    const grade = getApp().globalData.grade;
+    const poemsOfGrade = Poems[grade];
+    try {
+      const key = `toc:${grade}`;
+      const cachedTocs = wx.getStorageSync(key);
+      if (cachedTocs) {
+        this.setData({ tocs: cachedTocs, poems: poemsOfGrade });
+      } else {
+        const tocs = poemsOfGrade.map((vol) => {
+          const toc = vol.map(({ title, author, dynasty }) => ({ title, author, dynasty }));
+          return toc;
+        });
+        this.setData({ tocs, poems: poemsOfGrade });
+        wx.setStorage({ key, data: tocs });
+      }
+    } catch (e) {
+      console.log(e.message);
+    }
   },
 })

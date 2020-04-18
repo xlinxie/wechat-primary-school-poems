@@ -4,12 +4,14 @@ import Pages from '../../pages';
 Page({
   data: {
     showSubmitBtn: false,
-    grades: Object.values(Pages.grades),
+    grades: Array(6).fill(0),
   },
 
   navToGrade: function(e) {
-    const { path } = e.currentTarget.dataset;
-    wx.navigateTo({ url: path });
+    const { grade } = e.currentTarget.dataset;
+    console.log(grade);
+    getApp().globalData.grade = grade;
+    wx.navigateTo({ url: Pages.poems.index.path });
   },
   navToSearch: function() {
     // prevent navigate multiple times

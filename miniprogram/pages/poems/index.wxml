@@ -17,6 +17,7 @@
       wx:for="{{tocs[volIndex]}}"
       wx:key="title"
       bindtap="navToContent"
+      data-title="{{item.title}}"
     >
       <text class="counter">{{index + 1}}</text>
       <view class="wrapper">

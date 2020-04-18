@@ -1,23 +1,19 @@
 //index.js
-import { Poems } from '../../utils/data';
+import Poems from '../../utils/poems';
 import Pages from '../../pages';
 
 Page({
   data: {
-    poems: [
-      { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-      { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-      { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-      { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-      { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-    ],
     keyword: '',
+    pages: Object.keys(Pages.grades).map((key) => Pages.grades[key].path),
     result: []
   },
-  navToContent: function() {
-    wx.navigateTo({
-      url: Pages.poems.content.path,
-    });
+  navToContent: function(e) {
+    const { grade, id } = e.currentTarget.dataset;
+    const { pages, result } = this.data;
+    const poem = result.find((poem) => poem.id === id);
+    getApp().globalData.poem = poem;
+    wx.navigateTo({ url: pages[grade] });
   },
   handleSubmit: function(e) {
     let keyword = e.detail.value;
@@ -29,12 +25,25 @@ Page({
   },
   search: function(keyword) {
     const result = [];
-    Poems.forEach((poems) => {
-      poems.forEach((poem) => {
-        const poemStr = JSON.stringify(poem);
-        if (poemStr.indexOf(keyword) >= 0) {
-          result.push(poem);
-        }
+    Poems.forEach((poemsOfGrade, grade) => {
+      poemsOfGrade.forEach((poems) => {
+        poems.forEach((poem) => {
+          if (poem.title.includes(keyword)) {
+            result.push({ grade, ...poem });
+            return;
+          }
+          if (poem.author.includes(keyword)) {
+            result.push({ grade, ...poem });
+            return;
+          }
+          const content = poem.lines.map(
+            ({ characters }) => characters.join('')
+          ).join(',');
+          if (content.includes(keyword)) {
+            result.push({ grade, ...poem });
+            return;
+          }
+        })
       })
     });
     return result;

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "collapse-panel": "/components/collapse-panel/index"
+  }
+}
