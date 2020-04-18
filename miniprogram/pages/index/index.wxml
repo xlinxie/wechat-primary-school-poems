@@ -4,15 +4,18 @@
   scroll-with-animation="true"
   style="min-height: 100vh;"
 >
-  <form class="searchbar">
-    <image class="icon icon-search" src="/public/images/icon-search.png" />
-    <input
-      type="text"
-      placeholder="搜索古诗名、作者"
-      placeholder-class="placeholder"
-      bindtap="handleSearch"
-    />
-  </form>
+  <view class="searchbar">
+    <view class="inline-form-field">
+      <image class="icon icon-search" src="/public/images/icon-search.svg" />
+      <input
+        type="text"
+        name="keyword"
+        placeholder="搜索古诗名、作者"
+        placeholder-class="placeholder"
+        bindfocus="navToSearch"
+      />
+    </view>
+  </view>
   <view class="content">
     <view class="grades">
       <view
@@ -21,8 +24,9 @@
         wx:for-item="grade"
         wx:key="title"
         bindtap="navToGrade"
+        data-path="{{grade.path}}"
       >
-        <image class="cover" src="{{grade.cover}}" />
+        <image class="cover" src="/public/images/cover/{{index + 1}}.png" />
       </view>
     </view>
   </view>

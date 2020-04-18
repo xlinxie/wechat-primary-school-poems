@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>2/fold</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#49A4FB" offset="0%"></stop>
+            <stop stop-color="#236BF4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M6.92065556,8 L17.0793444,8 C17.6316292,8 18.0793444,8.44771525 18.0793444,9 C18.0793444,9.2051721 18.0162348,9.40537881 17.8985764,9.57346234 L12.8192319,16.8296687 C12.5025174,17.282118 11.878987,17.3921528 11.4265377,17.0754383 C11.3308963,17.0084893 11.247717,16.92531 11.1807681,16.8296687 L6.10142364,9.57346234 C5.78470913,9.12101305 5.89474392,8.49748259 6.34719322,8.18076808 C6.51527675,8.0631096 6.71548346,8 6.92065556,8 Z" id="path-2"></path>
+        <filter x="-0.6%" y="-10.0%" width="101.1%" height="112.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.815987043   0 0 0 0 0.897307017   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="2/fold" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="矩形">
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

@@ -7,7 +7,10 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    expand: {
+      type: Boolean,
+      value: false,
+    }
   },
 
   /**
@@ -24,6 +27,12 @@ Component({
     toggleCollapse: function() {
       const { open } = this.data;
       this.setData({ open: !open });
+    }
+  },
+  observers: {
+    'expand': function(expand) {
+      console.log(expand);
+      this.setData({ open: expand });
     }
   }
 })

@@ -1,43 +1,51 @@
 //index.js
+import Pages from '../../pages';
 
 Page({
   data: {
-    volumes: ['上册', '下册'],
-    volIndex: 0,
-    poetry: {
-      lines: [
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-        { title: '咏鹅', author: '骆宾王', dynasty: '唐' },
-      ],
-    },
-    playAudio: false
+    poem: {},
+    playAudio: false,
+    showPinyin: true,
   },
 
-  switchVol: function(e) {
-    const { volIndex } = e.target.dataset;
-    if (typeof volIndex === 'number') {
-      this.setData({ volIndex });
+  playAudio: function(e) {
+    const { title } = e.currentTarget.dataset;
+    console.log(title);
+    const { playAudio } = this.data;
+    let audioCtx = getApp().globalData.audioContext;
+    if (!audioCtx) {
+      audioCtx = wx.createInnerAudioContext();
+      getApp().globalData.audioContext = audioCtx;
+    }
+    if (!playAudio) {
+      audioCtx.src = `/public/audios/01江南.mp3`;
+      audioCtx.onPlay(() => {
+        this.setData({ playAudio: true });
+      });
+      audioCtx.onStop(() => {
+        this.setData({ playAudio: false });
+      });
+      audioCtx.onEnded(() => {
+        this.setData({ playAudio: false });
+      });
+      audioCtx.play();
+    } else {
+      audioCtx.pause();
+      this.setData({ playAudio: false });
     }
   },
-  playAudio: function() {
-    const audioCtx = wx.createInnerAudioContext();
-    audioCtx.src = `/public/audios/01江南.mp3`;
-    audioCtx.onPlay(() => {
-      this.setData({ playAudio: true });
-    });
-    audioCtx.onStop(() => {
-      this.setData({ playAudio: false });
-    });
-    audioCtx.onEnded(() => {
-      this.setData({ playAudio: false });
-    });
-    audioCtx.play();
+  togglePinyin: function() {
+    const { showPinyin } = this.data;
+    this.setData({ showPinyin: !showPinyin });
   },
-
   onLoad: function() {
-
+    const poem = getApp().globalData.poem;
+    this.setData({ poem });
   },
+  onShareAppMessage() {
+    return {
+      title: '小学古诗知多少',
+      path: Pages.index.path,
+    }
+  }
 })

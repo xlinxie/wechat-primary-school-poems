@@ -1,9 +1,47 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/poems/index",
-    "pages/poems/content"
+    "pages/grades/one/index",
+    "pages/grades/two/index",
+    "pages/poems/content",
+    "pages/search/result"
   ],
+  "subpackages": [
+    {
+      "name": "grade3",
+      "root": "pages/grades/three",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "name": "grade4",
+      "root": "pages/grades/four",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "name": "grade5",
+      "root": "pages/grades/five",
+      "pages": [
+        "index"
+      ]
+    },
+    {
+      "name": "grade6",
+      "root": "pages/grades/six",
+      "pages": [
+        "index"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": ["grade1", "grade2", "grade3", "grade4", "grade5", "grade6"]
+    }
+  },
   "window": {
     "backgroundColor": "#fafafa",
     "backgroundTextStyle": "light",

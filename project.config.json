@@ -10,9 +10,11 @@
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
+		"uglifyFileName": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -20,12 +22,11 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"uglifyFileName": true
+		}
 	},
 	"appid": "wx0894f9baaf124e2f",
 	"projectname": "primary-school-poems",
-	"libVersion": "2.8.1",
+	"libVersion": "2.10.4",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -44,13 +45,19 @@
 		"game": {
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"id": 0,
+					"name": "pages/grades/two/index",
+					"pathName": "pages/grades/three/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

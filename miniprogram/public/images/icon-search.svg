@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>2/search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="45.6217715%" cy="6.22434043%" fx="45.6217715%" fy="6.22434043%" r="96.8466397%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DBE0E8" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#C3CDDD" offset="0%"></stop>
+            <stop stop-color="#9EA4AE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="2/search" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(13.000000, 13.500000) rotate(-45.000000) translate(-13.000000, -13.500000) translate(5.000000, 3.000000)">
+            <circle id="椭圆形" fill="url(#radialGradient-1)" cx="8" cy="8" r="7"></circle>
+            <path d="M8,0 C12.418278,0 16,3.581722 16,8 C16,12.0792885 12.9468043,15.445465 9.00095508,15.9379871 L9,20 C9,20.5522847 8.55228475,21 8,21 C7.44771525,21 7,20.5522847 7,20 L7.00004872,15.9381123 C3.05371356,15.4460359 0,12.0796344 0,8 C0,3.581722 3.581722,0 8,0 Z M8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 Z" id="形状结合" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

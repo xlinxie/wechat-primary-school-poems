@@ -3,38 +3,26 @@ import Pages from '../../pages';
 
 Page({
   data: {
-    grades: [
-      {
-          title: '一年级',
-          cover: '/public/images/cover/1.png'
-      },
-      {
-          title: '二年级',
-          cover: '/public/images/cover/2.png'
-      },
-      {
-          title: '三年级',
-          cover: '/public/images/cover/3.png'
-      },
-      {
-          title: '四年级',
-          cover: '/public/images/cover/4.png'
-      },
-      {
-          title: '五年级',
-          cover: '/public/images/cover/5.png'
-      },
-      {
-          title: '六年级',
-          cover: '/public/images/cover/6.png'
-      },
-    ]
+    showSubmitBtn: false,
+    grades: Object.values(Pages.grades),
   },
 
-  navToGrade: function() {
-    wx.navigateTo({
-      url: Pages.poems.index.path,
-    });
+  navToGrade: function(e) {
+    const { path } = e.currentTarget.dataset;
+    wx.navigateTo({ url: path });
+  },
+  navToSearch: function() {
+    // prevent navigate multiple times
+    clearTimeout(this.timer);
+    this.timer = setTimeout(() => {
+      wx.navigateTo({
+        url: Pages.search.result.path,
+        success: () => {
+          clearTimeout(this.timer);
+          this.timer = null;
+        }
+      });
+    }, 100);
   },
 
   onLoad: function() {

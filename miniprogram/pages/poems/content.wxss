@@ -23,10 +23,17 @@
   font-size: 32rpx;
 }
 
-.poem-header .btn-read {
+.controls {
   position: fixed;
-  top: 94rpx;
+  top: 60rpx;
   right: 16rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+}
+
+.controls .toggle {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,9 +43,14 @@
   color: #27282B;
   font-size: 20rpx;
   font-weight: 500;
+  background: url('https://s1.ax1x.com/2020/04/15/JCIHqf.png') no-repeat 0 0 / contain;
 }
 
-.btn-read .icon {
+.controls .toggle.disable {
+  background: url('https://s1.ax1x.com/2020/04/15/JCqOoV.png') no-repeat 0 0 / contain;
+}
+
+.controls .icon {
   margin-top: 20rpx;
   height: 56rpx;
   width: 56rpx;
@@ -48,7 +60,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 40rpx;
+  margin-top: 112rpx;
   margin-bottom: 132rpx;
 }
 
@@ -62,21 +74,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 112rpx;
+  justify-content: flex-end;
   width: 80rpx;
-  margin: 0 16rpx;
+  margin: 0 8rpx;
 }
 
 .wrapper .pinyin {
   display: flex;
   align-items: center;
+  margin-bottom: 16rpx;
   height: 40rpx;
-  color: #949a9e;
   line-height:40px;
+  color: #949a9e;
+  font-family: miui,system-ui,serif;
 }
 
-.wrapper .word {
+.wrapper .character {
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -110,6 +123,8 @@
 
 .annotations-panel .annotations {
   padding: 16rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
 }
 
 .annotations .annotation {
@@ -121,8 +136,14 @@
   width: 100%;
 }
 
-.translation-panel .translation {
-  padding: 32rpx;
+.translation-panel .translations {
+  padding: 16rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
+}
+
+.translations .translation {
+  margin: 16rpx;
 }
 
 .illustration {
@@ -139,15 +160,14 @@
 
 .footer .btn-share {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  width: 288rpx;
-  height: 96rpx;
-  margin: 132rpx auto 32rpx;
-  background: #236BF4;
-  box-shadow: 0 8rpx 16rpx 0 rgba(35,107,244,0.4);
+  padding-top: 32rpx;
+  width: 320rpx;
+  height: 128rpx;
+  margin: 132rpx auto 24rpx;
+  background: url('https://s1.ax1x.com/2020/04/15/Ji64BQ.png') no-repeat 0 0 / cover;
   border-radius: 48rpx;
-  border: 4rpx solid rgba(41,57,88,1);
   color: #fff;
   font-size: 32rpx;
   font-weight: 500;

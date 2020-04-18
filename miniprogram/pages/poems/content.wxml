@@ -1,129 +1,89 @@
 <view class="poems-content-container">
-  <view class="main">
-    <view class="poem-header">
-      <text class="title">咏鹅</text>
-      <text class="author">[唐] 骆宾王</text>
+  <view class="poem-header">
+    <text class="title">{{poem.title}}</text>
+    <text class="author">[{{poem.dynasty}}] {{poem.author}}</text>
+    <view class="controls">
       <view
-        class="btn-read"
-        style="background: url(/public/images/bg-oval.png) no-repeat center center / cover"
+        class="toggle {{playAudio ? '' : 'disable'}}"
+        bindtap="playAudio"
+        data-title="{{poem.title}}"
       >
-        <image class="icon icon-pacman" src="/public/images/icon-pacman.svg" />朗诵
+        <image
+          wx:if="{{!playAudio}}"
+          class="icon icon-pacman"
+          src="/public/images/icon-pacman.svg"
+        />
+        <image
+          wx:if="{{playAudio}}"
+          class="icon icon-pacman"
+          src="/public/images/icon-pacman-read.gif"
+        />朗诵
+      </view>
+      <view
+        class="toggle {{showPinyin ? '' : 'disable'}}"
+        bindtap="togglePinyin"
+      >
+        <image
+          wx:if="{{showPinyin}}"
+          class="icon icon-pinyin"
+          src="/public/images/icon-pinyin.svg"
+        />
+        <image
+          wx:if="{{!showPinyin}}"
+          class="icon icon-pinyin"
+          src="/public/images/icon-pinyin-disable.svg"
+        />
+        显示
       </view>
     </view>
-    <view class="lines">
-      <view class="line">
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">，</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">，</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-      </view>
+  </view>
 
-      <view class="line">
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">，</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">，</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-      </view>
-      <view class="line">
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">，</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">，</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-      </view>
-      <view class="line">
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">，</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">，</text>
-        </view>
-        <view class="wrapper">
-          <text class="pinyin">é</text>
-          <text class="word">鹅</text>
-        </view>
+  <view class="lines">
+    <view
+      class="line"
+      wx:for="{{poem.lines}}"
+      wx:for-item="line"
+      wx:key="index"
+    >
+      <view
+        class="wrapper"
+        wx:for="{{line.characters}}"
+        wx:for-item="character"
+        wx:key="index"
+      >
+        <text
+          class="pinyin"
+          wx:if="{{showPinyin}}"
+        >{{line.pinyins[index]}}</text>
+        <text class="character">{{character}}</text>
       </view>
     </view>
+  </view>
 
-    <!-- <view class="collapse-panel panel--open annotations">
-      <view class="header">注释</view>
-      <view class="content">
-        <view class="annotation">1.曲项：弯着脖子；歌：长鸣叫。</view>
-        <view class="annotation">2.拨：划动。</view>
-      </view>
-    </view> -->
-    <collapse-panel class="annotations-panel">
-      <view slot="header">注释</view>
-      <view class="annotations" slot="content">
-        <view class="annotation">1.曲项：弯着脖子；歌：长鸣叫。</view>
-        <view class="annotation">2.拨：划动。</view>
-      </view>
-    </collapse-panel>
-    <collapse-panel class="translation-panel">
-      <view slot="header">译文</view>
-      <view class="translation" slot="content">诗词翻译</view>
-    </collapse-panel>
-
-    <view class="footer">
-      <button class="btn-share btn-primary">分享给同学</button>
-      <view class="desc">快来和我一起学习古诗吧！</view>
+  <collapse-panel expand class="annotations-panel">
+    <view slot="header">注释</view>
+    <view class="annotations" slot="content">
+      <view
+        class="annotation"
+        wx:for="{{poem.annotations[0].annotation}}"
+        wx:key="index"
+      >{{item}}</view>
     </view>
+  </collapse-panel>
+
+  <collapse-panel class="translation-panel">
+    <view slot="header">译文</view>
+    <view class="translations" slot="content">
+      <view
+        class="translation"
+        wx:for="{{poem.annotations[0].translation}}"
+        wx:key="index"
+      >{{item}}</view>
+    </view>
+  </collapse-panel>
+
+  <view class="footer">
+    <button open-type="share" class="btn-share btn-primary">分享给同学</button>
+    <view class="desc">快来和我一起学习古诗吧！</view>
   </view>
 </view>

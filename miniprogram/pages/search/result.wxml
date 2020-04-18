@@ -1,4 +1,43 @@
-<view class="empty-state">
-  <text>空有花开无处寻</text>
-  <text>儿童急走追黄蝶，飞入菜花无处寻</text>
+<view class="search-result-container">
+  <form class="searchbar" bindsubmit="handleSubmit">
+    <view class="inline-form-field">
+      <image class="icon icon-search" src="/public/images/icon-search.svg" />
+      <input
+        name="keyword"
+        type="text"
+        placeholder="搜索古诗名、作者"
+        placeholder-class="placeholder"
+        confirm-type="search"
+        bindconfirm="handleSubmit"
+        value="{{keyword}}"
+      />
+    </view>
+    <button
+      class="btn-link"
+      hover-class="btn-link--hover"
+      form-type="submit"
+    >搜索</button>
+  </form>
+
+  <view class="search-result">
+    <view class="toc">
+      <view
+        class="toc-item"
+        wx:for="{{result}}"
+        wx:key="title"
+        bindtap="navToContent"
+      >
+        <text class="counter">{{index + 1}}</text>
+        <view class="wrapper">
+          <text class="title">{{item.title}}</text>
+          <view class="author">[{{item.dynasty}}] {{item.author}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="nothing-found" wx:if="{{keyword && result.length < 1}}">
+    <image src="/public/images/bg-nothing-found.png" />
+    <view class="desc">儿童急走追黄蝶，飞入菜花无处寻</view>
+  </view>
 </view>

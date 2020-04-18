@@ -1,0 +1,19 @@
+<form class="searchbar">
+  <view class="inline-form-field">
+    <image class="icon icon-search" src="/public/images/icon-search.svg" />
+    <input
+      type="text"
+      placeholder="搜索古诗名、作者"
+      placeholder-class="placeholder"
+      confirm-type="done"
+      bindconfirm="handleSearch"
+      bindfocus="showSubmitBtn"
+    />
+  </view>
+  <button
+    class="btn-link"
+    hover-class="btn-link--hover"
+    form-type="submit"
+    wx:if="{{showSubmitBtn}}"
+  >搜索</button>
+</form>

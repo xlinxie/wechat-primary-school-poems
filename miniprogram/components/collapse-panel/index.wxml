@@ -1,5 +1,6 @@
 <view class="collapse-panel {{open ? 'panel--open' : ''}}">
   <view class="panel-header" bindtap="toggleCollapse">
+    <image class="icon-triangle" src="/public/images/icon-triangle.svg" />
     <slot name="header"></slot>
   </view>
   <view class="panel-content" wx:if="{{open}}">
