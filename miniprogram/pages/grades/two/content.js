@@ -15,8 +15,13 @@ Page({
       audioCtx = wx.createInnerAudioContext();
       getApp().globalData.audioContext = audioCtx;
     }
+
+    const pages = getCurrentPages();
+    const currentPath = pages[pages.length - 1].route;
+    const baseAudioPath = currentPath.slice(0, currentPath.lastIndexOf('/'));
     if (!playAudio) {
-      audioCtx.src = `/pages/grades/two/audios/${title}.mp3`;
+      audioCtx.src = `/${baseAudioPath}/audios/${title}.mp3`;
+      audioCtx.loop = true;
       audioCtx.onPlay(() => {
         this.setData({ playAudio: true });
       });

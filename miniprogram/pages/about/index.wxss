@@ -20,7 +20,7 @@
   justify-content: space-evenly;
   color: #898B95;
   font-size: 26rpx;
-  margin: 48rpx auto;
+  margin: 48rpx auto 96rpx;
 }
 
 .authors .author {
@@ -52,18 +52,18 @@
 
 .desc {
   margin: 24rpx 16rpx;
-  font-size: 28rpx;
+  font-size: 32rpx;
   font-weight: 400;
   color:#27282B;
-  line-height: 40rpx;
+  line-height: 48rpx;
 }
 
 .btn-feedback {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 80rpx auto;
-  width: 622rpx;
+  margin: 80rpx auto 0;
+  width: 622rpx !important;
   height: 96rpx;
   background: rgba(72,131,244,1);
   box-shadow: 0 4rpx 8rpx 0 rgba(191,192,197,1);

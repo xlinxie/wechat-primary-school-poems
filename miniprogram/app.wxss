@@ -251,7 +251,7 @@ button:not([size='mini']) {
   height: 40rpx;
   line-height:40px;
   color: #949a9e;
-  font-size: 34rpx;
+  font-size: 30rpx;
   font-family: miui,system-ui,serif;
 }
 

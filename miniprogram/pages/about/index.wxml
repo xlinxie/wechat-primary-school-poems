@@ -13,19 +13,19 @@
       </view>
     </view>
     <view class="desc">
-      如你在使用过程中遇到任何的功能问题或有任何宝贵建议，欢迎给我们反馈。
+      如果你在使用过程中遇到任何的功能问题或有任何宝贵建议，欢迎给我们反馈。
     </view>
     <view class="desc">
-      希望我们开发的小程序能给孩子们学习中国古诗词提供有益的帮助，能激发他们对中国传统文化的兴趣爱好。
+      希望我们开发的小程序能为小朋友们学习中国古诗词提供有益的帮助，能激发他们对中国传统文化的兴趣爱好。
     </view>
     <view class="desc">
-      一起成为小小诗人吧！┗(•ω•;)┛
+      一起成为小小诗人吧！(๑•̀ㅂ•́)و✧
     </view>
     <button
       class="btn-feedback"
       open-type="feedback"
       send-message-title="问题反馈"
     >反馈</button>
-    <view class="copyright">©2020 小学古诗知多少</view>
   </view>
+  <view class="copyright">©2020 小学古诗知多少</view>
 </view>

@@ -526,7 +526,7 @@ export default [
             ],
             "pinyins": [
               "jiě",
-              "là",
+              "luò",
               "sān",
               "qiū",
               "yè"
@@ -977,7 +977,7 @@ export default [
             ],
             "pinyins": [
               "huā",
-              "là",
+              "luò",
               "zhī",
               "duō",
               "shǎo"
@@ -1043,7 +1043,7 @@ export default [
               "zhōu",
               "jiāng",
               "yù",
-              "háng"
+              "xíng"
             ]
           },
           {
@@ -1191,7 +1191,7 @@ export default [
               "中"
             ],
             "pinyins": [
-              "zhī",
+              "zhǐ",
               "zài",
               "cǐ",
               "shān",
@@ -1211,7 +1211,7 @@ export default [
               "shēn",
               "bù",
               "zhī",
-              "chǔ"
+              "chù"
             ]
           }
         ],
@@ -2957,7 +2957,7 @@ export default [
               "bái",
               "yún",
               "shēng",
-              "chǔ",
+              "chù",
               "yǒu",
               "rén",
               "jiā"
@@ -3024,7 +3024,7 @@ export default [
               "寒山：深秋季节的山。",
               "石径：石子的小路。",
               "斜：为倾斜的意思。",
-              "生：产生，生出。另有版本作“深”。（“生”可理解为在形成白云的地方；“深”可理解为在云雾缭绕的的深处）",
+              "生：产生，生出。另有版本作“深”。（“深”可理解为云雾缭绕的深处）",
               "车：轿子。",
               "坐：因为。",
               "霜叶：枫树的叶子经深秋寒霜之后变成了红色。",
@@ -3793,7 +3793,7 @@ export default [
               "yǐ",
               "guò",
               "wàn",
-              "zhòng",
+              "chóng",
               "shān"
             ]
           }
@@ -4173,7 +4173,7 @@ export default [
               "jìn",
               "què",
               "shān",
-              "háng"
+              "xíng"
             ]
           },
           {
@@ -4526,7 +4526,7 @@ export default [
               "dì",
               "dēng",
               "gāo",
-              "chǔ"
+              "chù"
             ]
           },
           {
@@ -5504,7 +5504,7 @@ export default [
             ],
             "pinyins": [
               "shēng",
-              "dàng",
+              "dāng",
               "zuò",
               "rén",
               "jié"
@@ -5716,7 +5716,7 @@ export default [
               "cháng",
               "hé",
               "jiàn",
-              "là",
+              "luò",
               "xiǎo",
               "xīng",
               "chén"
@@ -6087,7 +6087,7 @@ export default [
               "cài",
               "huā",
               "wú",
-              "chǔ",
+              "chù",
               "xún"
             ]
           }
@@ -6238,7 +6238,7 @@ export default [
               "xǐ",
               "xiǎo",
               "ér",
-              "wáng",
+              "wú",
               "lài"
             ]
           },
@@ -6255,7 +6255,7 @@ export default [
               "xī",
               "tóu",
               "wò",
-              "bāo",
+              "bō",
               "lián",
               "péng"
             ]
@@ -6581,7 +6581,7 @@ export default [
               "坤"
             ],
             "pinyins": [
-              "zhī",
+              "zhǐ",
               "liú",
               "qīng",
               "qì",
@@ -6626,46 +6626,6 @@ export default [
         "dynasty": "近现",
         "author": "毛泽东",
         "lines": [
-          {
-            "characters": [
-              "读",
-              "陆",
-              "游",
-              "咏",
-              "梅",
-              "词"
-            ],
-            "pinyins": [
-              "dú",
-              "lù",
-              "yóu",
-              "yǒng",
-              "méi",
-              "cí"
-            ]
-          },
-          {
-            "characters": [
-              "反",
-              "其",
-              "意",
-              "而",
-              "用",
-              "之"
-            ],
-            "pinyins": [
-              "fǎn",
-              "qí",
-              "yì",
-              "ér",
-              "yòng",
-              "zhī"
-            ]
-          },
-          {
-            "characters": [],
-            "pinyins": []
-          },
           {
             "characters": [
               "风",
@@ -7006,11 +6966,11 @@ export default [
               "甜"
             ],
             "pinyins": [
-              "wéi",
+              "wèi",
               "shuí",
               "xīn",
               "kǔ",
-              "wéi",
+              "wèi",
               "shuí",
               "tián"
             ]
@@ -7431,7 +7391,7 @@ export default [
               "quàn",
               "tiān",
               "gōng",
-              "zhòng",
+              "chóng",
               "dǒu",
               "sǒu"
             ]
@@ -7809,7 +7769,7 @@ export default [
               "guān",
               "nà",
               "pàn",
-              "háng"
+              "xíng"
             ]
           },
           {
@@ -8297,7 +8257,7 @@ export default [
             "pinyins": [
               "wèn",
               "qú",
-              "nà",
+              "nǎ",
               "dé",
               "qīng",
               "rú",
@@ -8315,7 +8275,7 @@ export default [
               "来"
             ],
             "pinyins": [
-              "wéi",
+              "wèi",
               "yǒu",
               "yuán",
               "tóu",
@@ -8440,7 +8400,7 @@ export default [
               "liú",
               "zì",
               "zài",
-              "háng"
+              "xíng"
             ]
           }
         ],
@@ -8528,7 +8488,7 @@ export default [
               "sūn",
               "wèi",
               "jiě",
-              "gōng",
+              "gòng",
               "gēng",
               "zhī"
             ]
@@ -8549,7 +8509,7 @@ export default [
               "sāng",
               "yīn",
               "xué",
-              "zhǒng",
+              "zhòng",
               "guā"
             ]
           }
@@ -9410,7 +9370,7 @@ export default [
               "xián",
               "guì",
               "huā",
-              "là"
+              "luò"
             ]
           },
           {
@@ -9804,7 +9764,7 @@ export default [
             ],
             "pinyins": [
               "cái",
-              "le",
+              "liǎo",
               "cán",
               "sāng",
               "yòu",
@@ -10275,7 +10235,7 @@ export default [
               "shuǐ",
               "qiān",
               "shān",
-              "zhī",
+              "zhǐ",
               "děng",
               "xián"
             ]
@@ -10476,7 +10436,7 @@ export default [
               "làng",
               "táo",
               "fēng",
-              "bò",
+              "bǒ",
               "zì",
               "tiān",
               "yá"
@@ -11088,7 +11048,7 @@ export default [
             "pinyins": [
               "jīn",
               "zhāo",
-              "gēng",
+              "gèng",
               "hǎo",
               "kàn"
             ]
@@ -11260,7 +11220,7 @@ export default [
               "回"
             ],
             "pinyins": [
-              "shǎo",
+              "shào",
               "xiǎo",
               "lí",
               "jiā",
@@ -11286,7 +11246,7 @@ export default [
               "gǎi",
               "bìn",
               "máo",
-              "shuāi"
+              "cuī"
             ]
           },
           {
@@ -11325,7 +11285,7 @@ export default [
               "kè",
               "cóng",
               "hé",
-              "chǔ",
+              "chù",
               "lái"
             ]
           }
@@ -11377,7 +11337,7 @@ export default [
               "chūn",
               "chéng",
               "wú",
-              "chǔ",
+              "chù",
               "bù",
               "fēi",
               "huā"
@@ -11755,7 +11715,7 @@ export default [
               "zhī",
               "qiū",
               "sī",
-              "là",
+              "luò",
               "shuí",
               "jiā"
             ]
@@ -12061,7 +12021,7 @@ export default [
               "mó",
               "wàn",
               "jī",
-              "huán",
+              "hái",
               "jiān",
               "jìn"
             ]
@@ -12400,7 +12360,7 @@ export default [
               "迟"
             ],
             "pinyins": [
-              "háng",
+              "xíng",
               "dào",
               "chí",
               "chí"
@@ -13025,10 +12985,10 @@ export default [
             "pinyins": [
               "zhōng",
               "shān",
-              "zhī",
+              "zhǐ",
               "gé",
               "shù",
-              "zhòng",
+              "chóng",
               "shān"
             ]
           },
@@ -13268,7 +13228,7 @@ export default [
               "xíng",
               "rén",
               "qù",
-              "nà",
+              "nǎ",
               "biān"
             ]
           },
@@ -13285,7 +13245,7 @@ export default [
               "yǎn",
               "yíng",
               "yíng",
-              "chǔ"
+              "chù"
             ]
           },
           {
@@ -13518,7 +13478,7 @@ export default [
               "shēng",
               "wú",
               "zài",
-              "shǎo"
+              "shào"
             ]
           },
           {
@@ -13607,7 +13567,7 @@ export default [
               "chūn",
               "guī",
               "hé",
-              "chǔ"
+              "chù"
             ]
           },
           {

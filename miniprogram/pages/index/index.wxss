@@ -1,6 +1,6 @@
 .index-container {
  padding-top: 110rpx;
- padding-bottom: 110rpx;
+ padding-bottom: 80rpx;
 }
 
 .grades {
@@ -13,7 +13,7 @@
 .grade {
   display: flex;
   justify-content: center;
-  margin: 28rpx 32rpx;
+  margin: 32rpx;
   flex-basis: 240rpx;
 }
 .cover {
