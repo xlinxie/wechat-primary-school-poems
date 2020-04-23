@@ -44,5 +44,9 @@ export default {
       title: '搜索结果',
       path: '/pages/search/result'
     }
+  },
+  'about': {
+    title: '关于',
+    path: '/pages/about/index'
   }
 }

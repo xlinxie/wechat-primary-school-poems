@@ -23,4 +23,7 @@
       </view>
     </view>
   </view>
+  <view class="about-link" bindtap="navToAbout">
+    <image class="icon-faq" src="https://s1.ax1x.com/2020/04/23/Jw6DL4.png" /><text>关于我们</text>
+  </view>
 </scroll-view>

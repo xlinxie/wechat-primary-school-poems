@@ -29,24 +29,13 @@ Page({
   },
 
   onLoad: function() {
-    const grade = getApp().globalData.grade;
+    const { grade } = getApp().globalData;
     const poemsOfGrade = Poems[grade];
-    try {
-      const key = `toc:${grade}`;
-      const cachedTocs = wx.getStorageSync(key);
-      if (cachedTocs) {
-        this.setData({ tocs: cachedTocs, poems: poemsOfGrade });
-      } else {
-        const tocs = poemsOfGrade.map((vol) => {
-          const toc = vol.map(({ title, author, dynasty }) => ({ title, author, dynasty }));
-          return toc;
-        });
-        this.setData({ tocs, poems: poemsOfGrade });
-        wx.setStorage({ key, data: tocs });
-      }
-    } catch (e) {
-      console.log(e.message);
-    }
+    const tocs = poemsOfGrade.map((vol) => {
+      const toc = vol.map(({ title, author, dynasty }) => ({ title, author, dynasty }));
+      return toc;
+    });
+    this.setData({ tocs, poems: poemsOfGrade });
     wx.setNavigationBarTitle({ title: Grades[grade] });
   },
   onShareAppMessage() {

@@ -25,6 +25,9 @@ Page({
       });
     }, 100);
   },
+  navToAbout() {
+    wx.navigateTo({ url: Pages.about.path });
+  },
   onLoad: function() {},
   onShareAppMessage() {
     return {

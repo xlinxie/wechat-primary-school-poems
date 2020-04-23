@@ -43,6 +43,24 @@ button:not([size='mini']) {
   padding: 0;
 }
 
+.about-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32rpx auto;
+  height: 40rpx;
+  color: #898B95;
+  font-size: 28rpx;
+}
+
+.icon-faq {
+  display: inline-flex;
+  align-items: center;
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 6rpx;
+}
+
 .searchbar {
   position: fixed;
   top: 0;
@@ -176,7 +194,7 @@ button:not([size='mini']) {
 
 /* 年级诗词内容页面 */
 .poems-content-container {
-  padding: 0 32rpx 128rpx;
+  padding: 0 32rpx 176rpx;
 }
 
 .poem-header {

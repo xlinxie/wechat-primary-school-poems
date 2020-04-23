@@ -17,6 +17,7 @@ Page({
     }
     if (!playAudio) {
       audioCtx.src = `/pages/grades/one/audios/${title}.mp3`;
+      audioCtx.loop = true;
       audioCtx.onPlay(() => {
         this.setData({ playAudio: true });
       });

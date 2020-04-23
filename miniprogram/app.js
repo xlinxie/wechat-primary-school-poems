@@ -3,5 +3,6 @@
 App({
   onLaunch: function () {
     this.globalData = {};
+    wx.clearStorage();
   }
 })

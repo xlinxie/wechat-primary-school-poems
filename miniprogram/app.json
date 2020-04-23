@@ -4,6 +4,7 @@
     "pages/poems/index",
     "pages/poems/content",
     "pages/search/result",
+    "pages/about/index",
     "pages/grades/one/content",
     "pages/grades/two/content"
   ],

@@ -1,5 +1,6 @@
 .index-container {
  padding-top: 110rpx;
+ padding-bottom: 110rpx;
 }
 
 .grades {
