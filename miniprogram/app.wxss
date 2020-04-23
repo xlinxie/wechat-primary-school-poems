@@ -6,6 +6,10 @@ page {
   background: #fafafa;
 }
 
+view {
+  box-sizing: border-box;
+}
+
 button {
   background: initial;
 }
@@ -18,6 +22,11 @@ button::after {
   border: none;
 }
 
+button:not([size='mini']) {
+  margin-left: unset;
+  margin-right: unset;
+}
+
 .pag-container {
   display: flex;
   flex-direction: column;
@@ -25,10 +34,14 @@ button::after {
   box-sizing: border-box;
 }
 
-view {
-  box-sizing: border-box;
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  padding: 0;
 }
-
 
 .searchbar {
   position: fixed;
@@ -99,43 +112,14 @@ view {
   text-align: center;
 }
 
-
-/* 年级诗词目录页面 */
-.vol-switch {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  height: 96rpx;
+.searchbar .inline-form-field .fake-input {
   width: 100%;
-  margin-bottom: 2rpx;
-  background-color: #fff;
-  border-bottom: 2rpx solid #F4F4F4;
+  padding-left: 80rpx;
+  color:#BFC0C5;
+  text-align: center;
 }
 
-.vol-switch .switch-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-basis: 50%;
-  line-height: 48rpx;
-  height: 100%;
-  color: #BFC0C5;
-  font-size: 34rpx;
-  font-weight: 400;
-}
-
-.vol-switch .switch-item image {
-  width: 160rpx;
-  height: 64rpx;
-}
-
-.vol-switch .switch-item.selected {
-  color: #27282B;
-}
-
+/* 诗词目录 */
 .toc {
   display: flex;
   flex-direction: column;
@@ -161,10 +145,12 @@ view {
   height: 64rpx;
   width: 64rpx;
   border-radius: 50%;
+  /* border: 4rpx solid #BFC0C5;
+  border-bottom: 4rpx solid rgba(72,131,244,1); */
   margin: 0 32rpx;
-  background: url('https://s1.ax1x.com/2020/04/15/Ji6Yfx.png') no-repeat 0 0 / contain;
+  /* background: url('https://s1.ax1x.com/2020/04/15/Ji6Yfx.png') no-repeat 0 0 / contain; */
   color: #0C2F72;
-  font-size: 40;
+  font-size: 36rpx;
   font-weight: 600;
 }
 
@@ -185,4 +171,182 @@ view {
   margin-top: 8rpx;
   color: #BFC0C5;
   font-size: 28rpx;
+}
+
+
+/* 年级诗词内容页面 */
+.poems-content-container {
+  padding: 0 32rpx 128rpx;
+}
+
+.poem-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 78rpx;
+  color: #27282B;
+}
+
+.poem-header .title {
+  color: #27282B;
+  font-size: 56rpx;
+  font-weight: 400;
+}
+
+.poem-header .author {
+  margin-top: 16rpx;
+  font-size: 32rpx;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 112rpx;
+  margin-bottom: 132rpx;
+}
+
+.lines .line {
+  display: flex;
+  align-items: center;
+  margin: 16rpx 0;
+}
+
+.line .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80rpx;
+}
+
+.line .wrapper:not(:last-child) {
+  margin-right: 12rpx;
+}
+
+.line .wrapper .pinyin {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16rpx;
+  height: 40rpx;
+  line-height:40px;
+  color: #949a9e;
+  font-size: 34rpx;
+  font-family: miui,system-ui,serif;
+}
+
+.line .wrapper .character {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2rpx solid rgba(228,229,231,1);
+  height: 76rpx;
+  min-height: 78rpx;
+  width: 76rpx;
+  line-height: 66rpx;
+  color: #27282B;
+  font-size: 48rpx;
+  background: linear-gradient(90deg, #E4E5E7, #E4E5E7 75%, transparent 75%, transparent 100%) repeat-x 0 center / 20rpx 2rpx,
+  linear-gradient(#E4E5E7, #E4E5E7 75%, transparent 75%, transparent 100%) repeat-y center 0 / 2rpx 20rpx;
+}
+
+.annotations-panel {
+  display: flex;
+  margin-bottom: 32rpx;
+  width: 100%;
+}
+
+.annotations-panel .header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 80rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  font-weight: bold;
+}
+
+.annotations-panel .annotations {
+  padding: 16rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
+}
+
+.annotations .annotation {
+  margin: 16rpx;
+}
+
+.translation-panel {
+  display: flex;
+  width: 100%;
+}
+
+.translation-panel .translations {
+  padding: 16rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
+}
+
+.translations .translation {
+  margin: 16rpx;
+}
+
+.poems-content-container .footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 22rpx;
+  height: 124rpx;
+  background: #fff;
+  box-shadow: 0 -2rpx 2rpx 0 rgba(244,244,245,1);
+  font-size: 32rpx;
+  font-weight: 500;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+
+.controls .toggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 44rpx;
+  line-height: 28rpx;
+  color: #4883F4;
+  font-size: 20rpx;
+  font-weight: 500;
+}
+
+.controls .toggle.disable {
+  /* color: #949a9e; */
+  filter: grayscale(80%);
+}
+
+.controls .icon {
+  height: 56rpx;
+  width: 56rpx;
+}
+
+.btn-share {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 32rpx !important;
+  width: 400rpx;
+  height: 80rpx;
+  background: rgba(72,131,244,1);
+  border-radius: 40rpx;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 500;
 }

@@ -1,6 +1,7 @@
 //index.js
 import Pages from '../../pages';
 import Poems from '../../utils/poems';
+import { Grades } from '../../utils/constants';
 
 Page({
   data: {
@@ -20,9 +21,10 @@ Page({
     const { title } = e.currentTarget.dataset;
     if (!title) return;
 
-    const { volIndex, pages, poems } = this.data;
+    const { volIndex, volumes, pages, poems } = this.data;
     const grade = getApp().globalData.grade;
     getApp().globalData.poem = poems[volIndex].find((poem) => poem.title === title);
+    getApp().globalData.poemContentTitle = `${Grades[grade]} - ${volumes[volIndex]}`;
     wx.navigateTo({ url: pages[grade] });
   },
 
@@ -45,5 +47,12 @@ Page({
     } catch (e) {
       console.log(e.message);
     }
+    wx.setNavigationBarTitle({ title: Grades[grade] });
   },
+  onShareAppMessage() {
+    return {
+      title: '小学古诗知多少',
+      path: Pages.index.path,
+    }
+  }
 })

@@ -50,6 +50,12 @@ Page({
   },
   onLoad: function() {},
   onReady: function() {
-    // wx.setNavigationBarTitle({ title: '搜索' });
+    wx.setNavigationBarTitle({ title: '搜索' });
+  },
+  onShareAppMessage() {
+    return {
+      title: '小学古诗知多少',
+      path: Pages.index.path,
+    }
   }
 })

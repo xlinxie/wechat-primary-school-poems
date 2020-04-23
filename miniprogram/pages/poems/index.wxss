@@ -1,15 +1,15 @@
-.poems-index-container {
-
-}
-
 .vol-switch {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   height: 96rpx;
   width: 100%;
   margin-bottom: 2rpx;
   background-color: #fff;
-  box-shadow: 0 2rpx 0 0 #F4F4F4;
+  border-bottom: 2rpx solid #F4F4F4;
 }
 
 .vol-switch .switch-item {
@@ -27,61 +27,9 @@
 .vol-switch .switch-item image {
   width: 160rpx;
   height: 64rpx;
+  filter: grayscale(90%);
 }
 
-.vol-switch .switch-item.selected {
-  color: #27282B;
-}
-
-.toc {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
-.toc .toc-item {
-  display: flex;
-  align-items: center;
-  height: 160rpx;
-  width: 100%;
-  background-color: #fff;
-  box-shadow: 0 -2rpx 0 0 #fafafa;
-}
-
-/* .toc-item:nth-child(2n) {
-  background-color: #F8FAFC;
-} */
-
-.toc-item .counter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 64rpx;
-  width: 64rpx;
-  border-radius: 50%;
-  margin: 0 32rpx;
-  background: url('https://s1.ax1x.com/2020/04/15/Ji6Yfx.png') no-repeat 0 0 / contain;
-  color: #0C2F72;
-  font-size: 40;
-  font-weight: 600;
-}
-
-.toc-item .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  flex-grow: 2;
-}
-
-.toc-item .wrapper .title {
-  color: #27282B;
-  font-size: 36rpx;
-}
-
-.toc-item .wrapper .author {
-  margin-top: 8rpx;
-  color: #BFC0C5;
-  font-size: 28rpx;
+.vol-switch .switch-item.selected image {
+  filter: unset;
 }

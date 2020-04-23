@@ -5,6 +5,7 @@
       <input
         name="keyword"
         type="text"
+        focus
         placeholder="搜索古诗名、作者"
         placeholder-class="placeholder"
         confirm-type="search"

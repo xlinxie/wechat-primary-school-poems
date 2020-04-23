@@ -25,13 +25,12 @@ Component({
    */
   methods: {
     toggleCollapse: function() {
-      const { open } = this.data;
-      this.setData({ open: !open });
+      // const { open } = this.data;
+      // this.setData({ open: !open });
     }
   },
   observers: {
     'expand': function(expand) {
-      console.log(expand);
       this.setData({ open: expand });
     }
   }

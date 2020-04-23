@@ -9,7 +9,6 @@ Page({
 
   navToGrade: function(e) {
     const { grade } = e.currentTarget.dataset;
-    console.log(grade);
     getApp().globalData.grade = grade;
     wx.navigateTo({ url: Pages.poems.index.path });
   },
@@ -26,8 +25,11 @@ Page({
       });
     }, 100);
   },
-
-  onLoad: function() {
-
-  },
+  onLoad: function() {},
+  onShareAppMessage() {
+    return {
+      title: '小学古诗知多少',
+      path: Pages.index.path,
+    }
+  }
 })

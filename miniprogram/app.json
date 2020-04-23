@@ -37,12 +37,6 @@
       ]
     }
   ],
-  "preloadRule": {
-    "pages/poems/index": {
-      "network": "all",
-      "packages": ["grade3", "grade4", "grade5", "grade6"]
-    }
-  },
   "window": {
     "backgroundColor": "#fafafa",
     "backgroundTextStyle": "light",

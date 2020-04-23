@@ -8,9 +8,10 @@
   position: relative;
   display: flex;
   align-items: center;
-  height: 80rpx;
-  background: #fff;
   border-radius: 8rpx;
+  padding: 0 32rpx;
+  background: transparent;
+  color: #949A9E;
   font-weight: bold;
 }
 
@@ -24,20 +25,3 @@
 .collapse-panel.panel--open .panel-header .icon-triangle {
   transform: rotate(0deg);
 }
-
-/* .collapse-panel .panel-header::before {
-  position: absolute;
-  left: 16rpx;
-  content: '';
-  height: 0;
-  width: 0;
-  border-left: 16rpx solid #236BF4;
-  border-top: 12rpx solid transparent;
-  border-bottom: 12rpx solid transparent;
-}
-
-.collapse-panel.panel--open .panel-header::before {
-  border-top: 16rpx solid #236BF4;
-  border-left: 12rpx solid transparent;
-  border-right: 12rpx solid transparent;
-} */

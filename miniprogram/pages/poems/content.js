@@ -38,6 +38,8 @@ Page({
   },
   onLoad: function() {
     const poem = getApp().globalData.poem;
+    const pageTitle = getApp().globalData.poemContentTitle;
+    wx.setNavigationBarTitle({ title: pageTitle });
     this.setData({ poem });
   },
   onShareAppMessage() {

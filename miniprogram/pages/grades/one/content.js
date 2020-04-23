@@ -38,7 +38,13 @@ Page({
   },
   onLoad: function() {
     const poem = getApp().globalData.poem;
+    const pageTitle = getApp().globalData.poemContentTitle;
+    wx.setNavigationBarTitle({ title: pageTitle });
     this.setData({ poem });
+  },
+  onUnload: function() {
+    let audioCtx = getApp().globalData.audioContext;
+    if (audioCtx) audioCtx.stop();
   },
   onShareAppMessage() {
     return {

@@ -2,40 +2,6 @@
   <view class="poem-header">
     <text class="title">{{poem.title}}</text>
     <text class="author">[{{poem.dynasty}}] {{poem.author}}</text>
-    <view class="controls">
-      <view
-        class="toggle {{playAudio ? '' : 'disable'}}"
-        bindtap="playAudio"
-        data-title="{{poem.title}}"
-      >
-        <image
-          wx:if="{{!playAudio}}"
-          class="icon icon-pacman"
-          src="/public/images/icon-pacman.svg"
-        />
-        <image
-          wx:if="{{playAudio}}"
-          class="icon icon-pacman"
-          src="/public/images/icon-pacman-read.gif"
-        />朗诵
-      </view>
-      <view
-        class="toggle {{showPinyin ? '' : 'disable'}}"
-        bindtap="togglePinyin"
-      >
-        <image
-          wx:if="{{showPinyin}}"
-          class="icon icon-pinyin"
-          src="/public/images/icon-pinyin.svg"
-        />
-        <image
-          wx:if="{{!showPinyin}}"
-          class="icon icon-pinyin"
-          src="/public/images/icon-pinyin-disable.svg"
-        />
-        显示
-      </view>
-    </view>
   </view>
 
   <view class="lines">
@@ -71,7 +37,7 @@
     </view>
   </collapse-panel>
 
-  <collapse-panel class="translation-panel">
+  <collapse-panel expand class="translation-panel">
     <view slot="header">译文</view>
     <view class="translations" slot="content">
       <view
@@ -83,7 +49,35 @@
   </collapse-panel>
 
   <view class="footer">
-    <button open-type="share" class="btn-share btn-primary">分享给同学</button>
-    <view class="desc">快来和我一起学习古诗吧！</view>
+    <view class="controls">
+      <view
+        class="toggle {{playAudio ? '' : 'disable'}}"
+        bindtap="playAudio"
+        data-title="{{poem.title}}"
+      >
+        <image
+          wx:if="{{!playAudio}}"
+          class="icon icon-pacman"
+          src="/public/images/icon-pacman.svg"
+        />
+        <image
+          wx:if="{{playAudio}}"
+          class="icon icon-pacman"
+          src="/public/images/icon-pacman-read.gif"
+        />
+        朗诵
+      </view>
+      <view
+        class="toggle {{showPinyin ? '' : 'disable'}}"
+        bindtap="togglePinyin"
+      >
+        <image
+          class="icon icon-pinyin"
+          src="/public/images/icon-pinyin.svg"
+        />
+        拼音
+      </view>
+    </view>
+    <button open-type="share" class="btn btn-share">分享给同学</button>
   </view>
 </view>

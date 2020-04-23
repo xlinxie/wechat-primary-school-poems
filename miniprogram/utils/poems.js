@@ -84,6 +84,38 @@ export default [
               "yè",
               "xī"
             ]
+          },
+          {
+            "characters": [
+              "鱼",
+              "戏",
+              "莲",
+              "叶",
+              "南"
+            ],
+            "pinyins": [
+              "yú",
+              "xì",
+              "lián",
+              "yè",
+              "nán"
+            ]
+          },
+          {
+            "characters": [
+              "鱼",
+              "戏",
+              "莲",
+              "叶",
+              "北"
+            ],
+            "pinyins": [
+              "yú",
+              "xì",
+              "lián",
+              "yè",
+              "běi"
+            ]
           }
         ],
         "keywords": [
@@ -116,7 +148,7 @@ export default [
           }
         ],
         "title": "江南",
-        "id": "77bb2f60-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8cf0b60-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -207,7 +239,7 @@ export default [
           }
         ],
         "title": "画",
-        "id": "77bb2f61-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8cfa7a0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -298,7 +330,7 @@ export default [
           }
         ],
         "title": "咏鹅",
-        "id": "77bba490-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8cfa7a1-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -388,7 +420,7 @@ export default [
           }
         ],
         "title": "悯农二首·其二",
-        "id": "77bba491-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8cfa7a2-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -478,7 +510,7 @@ export default [
           }
         ],
         "title": "古朗月行(节选)",
-        "id": "77bba492-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8cfceb0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -570,7 +602,7 @@ export default [
           }
         ],
         "title": "风",
-        "id": "77bba493-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8cfceb1-8255-11ea-9a8c-6f36b7b59df7"
       }
     ],
     [
@@ -673,7 +705,7 @@ export default [
           }
         ],
         "title": "静夜思",
-        "id": "77bc67e0-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d12e40-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -683,21 +715,17 @@ export default [
             "characters": [
               "人",
               "之",
-              "初"
-            ],
-            "pinyins": [
-              "rén",
-              "zhī",
-              "chū"
-            ]
-          },
-          {
-            "characters": [
+              "初",
+              "，",
               "性",
               "本",
               "善"
             ],
             "pinyins": [
+              "rén",
+              "zhī",
+              "chū",
+              " ",
               "xìng",
               "běn",
               "shàn"
@@ -707,21 +735,17 @@ export default [
             "characters": [
               "性",
               "相",
-              "近"
-            ],
-            "pinyins": [
-              "xìng",
-              "xiāng",
-              "jìn"
-            ]
-          },
-          {
-            "characters": [
+              "近",
+              "，",
               "习",
               "相",
               "远"
             ],
             "pinyins": [
+              "xìng",
+              "xiāng",
+              "jìn",
+              " ",
               "xí",
               "xiāng",
               "yuǎn"
@@ -731,21 +755,17 @@ export default [
             "characters": [
               "苟",
               "不",
-              "教"
-            ],
-            "pinyins": [
-              "gǒu",
-              "bù",
-              "jiào"
-            ]
-          },
-          {
-            "characters": [
+              "教",
+              "，",
               "性",
               "乃",
               "迁"
             ],
             "pinyins": [
+              "gǒu",
+              "bù",
+              "jiào",
+              " ",
               "xìng",
               "nǎi",
               "qiān"
@@ -755,45 +775,41 @@ export default [
             "characters": [
               "教",
               "之",
-              "道"
-            ],
-            "pinyins": [
-              "jiào",
-              "zhī",
-              "dào"
-            ]
-          },
-          {
-            "characters": [
+              "道",
+              "，",
               "贵",
               "以",
               "专"
             ],
             "pinyins": [
+              "jiào",
+              "zhī",
+              "dào",
+              " ",
               "guì",
               "yǐ",
               "zhuān"
             ]
           },
           {
-            "characters": [
-              "子",
-              "不",
-              "学"
-            ],
-            "pinyins": [
-              "zǐ",
-              "bù",
-              "xué"
-            ]
+            "characters": [],
+            "pinyins": []
           },
           {
             "characters": [
+              "子",
+              "不",
+              "学",
+              "，",
               "非",
               "所",
               "宜"
             ],
             "pinyins": [
+              "zǐ",
+              "bù",
+              "xué",
+              " ",
               "fēi",
               "suǒ",
               "yí"
@@ -803,21 +819,17 @@ export default [
             "characters": [
               "幼",
               "不",
-              "学"
-            ],
-            "pinyins": [
-              "yòu",
-              "bù",
-              "xué"
-            ]
-          },
-          {
-            "characters": [
+              "学",
+              "，",
               "老",
               "何",
               "为"
             ],
             "pinyins": [
+              "yòu",
+              "bù",
+              "xué",
+              " ",
               "lǎo",
               "hé",
               "wéi"
@@ -827,21 +839,17 @@ export default [
             "characters": [
               "玉",
               "不",
-              "琢"
-            ],
-            "pinyins": [
-              "yù",
-              "bù",
-              "zhuó"
-            ]
-          },
-          {
-            "characters": [
+              "琢",
+              "，",
               "不",
               "成",
               "器"
             ],
             "pinyins": [
+              "yù",
+              "bù",
+              "zhuó",
+              " ",
               "bù",
               "chéng",
               "qì"
@@ -851,21 +859,17 @@ export default [
             "characters": [
               "人",
               "不",
-              "学"
-            ],
-            "pinyins": [
-              "rén",
-              "bù",
-              "xué"
-            ]
-          },
-          {
-            "characters": [
+              "学",
+              "，",
               "不",
               "知",
               "义"
             ],
             "pinyins": [
+              "rén",
+              "bù",
+              "xué",
+              " ",
               "bù",
               "zhī",
               "yì"
@@ -902,7 +906,7 @@ export default [
           }
         ],
         "title": "人之初",
-        "id": "77bc67e1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d15550-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -996,7 +1000,7 @@ export default [
           }
         ],
         "title": "池上",
-        "id": "77bc67e2-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d15551-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -1110,7 +1114,7 @@ export default [
           }
         ],
         "title": "小池",
-        "id": "77bc8ef0-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d15552-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -1217,7 +1221,7 @@ export default [
           }
         ],
         "title": "春晓",
-        "id": "77bc8ef1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d15553-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -1341,7 +1345,7 @@ export default [
           }
         ],
         "title": "赠汪伦",
-        "id": "77bc8ef2-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d17c60-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -1437,7 +1441,7 @@ export default [
           }
         ],
         "title": "寻隐者不遇",
-        "id": "77bc8ef3-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d17c61-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "明",
@@ -1547,7 +1551,7 @@ export default [
           }
         ],
         "title": "画鸡",
-        "id": "77bc8ef4-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d17c62-8255-11ea-9a8c-6f36b7b59df7"
       }
     ]
   ],
@@ -1651,7 +1655,7 @@ export default [
           }
         ],
         "title": "登鹳雀楼",
-        "id": "77bd0420-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d2b4e0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -1769,7 +1773,7 @@ export default [
           }
         ],
         "title": "望庐山瀑布",
-        "id": "77bd0421-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d2b4e1-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -1862,7 +1866,7 @@ export default [
           }
         ],
         "title": "夜宿山寺",
-        "id": "77bd0422-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d2b4e2-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "南北朝",
@@ -1872,21 +1876,17 @@ export default [
             "characters": [
               "敕",
               "勒",
-              "川"
-            ],
-            "pinyins": [
-              "chì",
-              "lè",
-              "chuān"
-            ]
-          },
-          {
-            "characters": [
+              "川",
+              "，",
               "阴",
               "山",
               "下"
             ],
             "pinyins": [
+              "chì",
+              "lè",
+              "chuān",
+              " ",
               "yīn",
               "shān",
               "xià"
@@ -1924,24 +1924,40 @@ export default [
             "characters": [
               "天",
               "苍",
-              "苍"
-            ],
-            "pinyins": [
-              "tiān",
-              "cāng",
-              "cāng"
-            ]
-          },
-          {
-            "characters": [
+              "苍",
+              "，",
               "野",
               "茫",
               "茫"
             ],
             "pinyins": [
+              "tiān",
+              "cāng",
+              "cāng",
+              " ",
               "yě",
               "máng",
               "máng"
+            ]
+          },
+          {
+            "characters": [
+              "风",
+              "吹",
+              "草",
+              "低",
+              "见",
+              "牛",
+              "羊"
+            ],
+            "pinyins": [
+              "fēng",
+              "chuī",
+              "cǎo",
+              "dī",
+              "jiàn",
+              "niú",
+              "yáng"
             ]
           }
         ],
@@ -1973,7 +1989,7 @@ export default [
           }
         ],
         "title": "敕勒歌",
-        "id": "77bd0423-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d2b4e3-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -2068,7 +2084,7 @@ export default [
           }
         ],
         "title": "梅花",
-        "id": "77bd2b30-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d2b4e4-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -2175,7 +2191,7 @@ export default [
           }
         ],
         "title": "小儿垂钓",
-        "id": "77bd2b31-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d2dbf0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -2272,7 +2288,7 @@ export default [
           }
         ],
         "title": "江雪",
-        "id": "77bd5240-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d2dbf1-8255-11ea-9a8c-6f36b7b59df7"
       }
     ],
     [
@@ -2387,7 +2403,7 @@ export default [
           }
         ],
         "title": "村居",
-        "id": "77bdc770-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d41470-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -2501,7 +2517,7 @@ export default [
           }
         ],
         "title": "咏柳",
-        "id": "77bdc771-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d43b80-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -2640,7 +2656,7 @@ export default [
           }
         ],
         "title": "晓出净慈寺送林子方",
-        "id": "77bdc772-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d43b81-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -2752,7 +2768,7 @@ export default [
           }
         ],
         "title": "绝句",
-        "id": "77bdc773-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d43b82-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -2918,7 +2934,7 @@ export default [
           }
         ],
         "title": "赋得古原草送别",
-        "id": "77bdc774-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d43b83-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -3010,7 +3026,7 @@ export default [
           }
         ],
         "title": "悯农二首·其一",
-        "id": "77bdc775-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d43b84-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "清",
@@ -3098,7 +3114,7 @@ export default [
           }
         ],
         "title": "舟夜书所见",
-        "id": "77bdc776-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d46290-8255-11ea-9a8c-6f36b7b59df7"
       }
     ]
   ],
@@ -3132,7 +3148,7 @@ export default [
             "characters": [
               "白",
               "云",
-              "深",
+              "生",
               "处",
               "有",
               "人",
@@ -3141,7 +3157,7 @@ export default [
             "pinyins": [
               "bái",
               "yún",
-              "shēn",
+              "shēng",
               "chǔ",
               "yǒu",
               "rén",
@@ -3219,7 +3235,7 @@ export default [
           }
         ],
         "title": "山行",
-        "id": "77be3ca0-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d5c220-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -3333,7 +3349,7 @@ export default [
           }
         ],
         "title": "赠刘景文",
-        "id": "77be3ca1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d5c221-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -3442,7 +3458,7 @@ export default [
           }
         ],
         "title": "夜书所见",
-        "id": "77be3ca2-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d5e930-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -3555,7 +3571,7 @@ export default [
           }
         ],
         "title": "望天门山",
-        "id": "77be3ca3-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d5e931-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -3686,7 +3702,7 @@ export default [
           }
         ],
         "title": "饮湖上初晴后雨",
-        "id": "77be3ca4-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d5e932-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -3800,66 +3816,7 @@ export default [
           }
         ],
         "title": "望洞庭",
-        "id": "77be63b0-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "宋",
-        "author": "佚名",
-        "lines": [
-          {
-            "characters": [
-              "群",
-              "儿",
-              "戏",
-              "于",
-              "庭"
-            ],
-            "pinyins": [
-              "qún",
-              "ér",
-              "xì",
-              "yú",
-              "tíng"
-            ]
-          },
-          {
-            "characters": [
-              "一",
-              "儿",
-              "登",
-              "瓮"
-            ],
-            "pinyins": [
-              "yī",
-              "ér",
-              "dēng",
-              "wèng"
-            ]
-          }
-        ],
-        "keywords": [
-          "写人",
-          "小学文言文"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "司马光和一群小孩子在庭院里面玩，一个小孩站在大缸上面，失足跌落缸中被水淹没，其他的小孩子都跑掉了，只有司马光拿石头砸开了缸，水从而流出，小孩子得以活命。"
-            ],
-            "annotation": [
-              "司马光：字君实，陕州夏县（现在山西）人。北宋大臣，史学家，编撰《资治通鉴》等书。",
-              "庭：庭院。",
-              "瓮：口小腹大的一种容器。",
-              "皆：全，都。",
-              "弃去：逃走。",
-              "光：指司马光。",
-              "破：打开，打破。",
-              "迸：涌出。"
-            ]
-          }
-        ],
-        "title": "司马光",
-        "id": "77be63b1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d5e933-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "清",
@@ -3955,7 +3912,7 @@ export default [
           }
         ],
         "title": "所见",
-        "id": "77be63b2-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d5e934-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -4065,7 +4022,7 @@ export default [
           }
         ],
         "title": "早发白帝城",
-        "id": "77be63b3-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d5e935-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -4174,7 +4131,7 @@ export default [
           }
         ],
         "title": "采莲曲",
-        "id": "77be63b4-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d61040-8255-11ea-9a8c-6f36b7b59df7"
       }
     ],
     [
@@ -4266,7 +4223,7 @@ export default [
           }
         ],
         "title": "绝句",
-        "id": "77beb1d0-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d65e60-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -4374,7 +4331,7 @@ export default [
           }
         ],
         "title": "惠崇春江晚景",
-        "id": "77beb1d1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d65e61-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -4484,93 +4441,7 @@ export default [
           }
         ],
         "title": "三衢道中",
-        "id": "77bed8e0-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "先秦",
-        "author": "韩非",
-        "lines": [
-          {
-            "characters": [
-              "宋",
-              "人",
-              "有",
-              "耕",
-              "者",
-              "。",
-              "田",
-              "中",
-              "有",
-              "株",
-              "。",
-              "兔",
-              "走",
-              "触",
-              "株"
-            ],
-            "pinyins": [
-              "sòng",
-              "rén",
-              "yǒu",
-              "gēng",
-              "zhě",
-              " ",
-              "tián",
-              "zhōng",
-              "yǒu",
-              "zhū",
-              " ",
-              "tù",
-              "zǒu",
-              "chù",
-              "zhū"
-            ]
-          },
-          {
-            "characters": [
-              "折",
-              "颈",
-              "而",
-              "死"
-            ],
-            "pinyins": [
-              "zhē",
-              "jǐng",
-              "ér",
-              "sǐ"
-            ]
-          },
-          {
-            "characters": [
-              "因",
-              "释",
-              "其",
-              "耒",
-              "而",
-              "守",
-              "株"
-            ],
-            "pinyins": [
-              "yīn",
-              "shì",
-              "qí",
-              "lěi",
-              "ér",
-              "shǒu",
-              "zhū"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "寓言",
-          "哲理"
-        ],
-        "annotations": [
-          {}
-        ],
-        "title": "守株待兔",
-        "id": "77bed8e1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d65e62-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -4683,7 +4554,7 @@ export default [
           }
         ],
         "title": "元日",
-        "id": "77bed8e2-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d65e63-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -4793,7 +4664,7 @@ export default [
           }
         ],
         "title": "清明",
-        "id": "77bed8e3-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d68570-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -4908,7 +4779,7 @@ export default [
           }
         ],
         "title": "九月九日忆山东兄弟",
-        "id": "77bed8e4-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d68571-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -4938,7 +4809,7 @@ export default [
               "fēng",
               "jǐng",
               "jiù",
-              "zēng",
+              "céng",
               "ān"
             ]
           },
@@ -4960,6 +4831,43 @@ export default [
               "hóng",
               "shèng",
               "huǒ"
+            ]
+          },
+          {
+            "characters": [
+              "春",
+              "来",
+              "江",
+              "水",
+              "绿",
+              "如",
+              "蓝"
+            ],
+            "pinyins": [
+              "chūn",
+              "lái",
+              "jiāng",
+              "shuǐ",
+              "lǜ",
+              "rú",
+              "lán"
+            ]
+          },
+          {
+            "characters": [
+              "能",
+              "不",
+              "忆",
+              "江",
+              "南",
+              "？"
+            ],
+            "pinyins": [
+              "néng",
+              "bù",
+              "yì",
+              "jiāng",
+              "nán"
             ]
           }
         ],
@@ -4990,7 +4898,7 @@ export default [
           }
         ],
         "title": "忆江南",
-        "id": "77bed8e5-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d68572-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -5101,7 +5009,7 @@ export default [
           }
         ],
         "title": "滁州西涧",
-        "id": "77bed8e6-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d68573-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -5209,7 +5117,7 @@ export default [
           }
         ],
         "title": "大林寺桃花",
-        "id": "77bed8e7-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d68574-8255-11ea-9a8c-6f36b7b59df7"
       }
     ]
   ],
@@ -5290,7 +5198,7 @@ export default [
               "弓"
             ],
             "pinyins": [
-              "lòu",
+              "lù",
               "sì",
               "zhēn",
               "zhū",
@@ -5322,7 +5230,7 @@ export default [
           }
         ],
         "title": "暮江吟",
-        "id": "77bf4e10-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d7e500-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -5440,7 +5348,7 @@ export default [
           }
         ],
         "title": "题西林壁",
-        "id": "77bf4e11-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d7e501-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -5552,81 +5460,7 @@ export default [
           }
         ],
         "title": "雪梅",
-        "id": "77bf4e12-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "先秦",
-        "author": "佚名",
-        "lines": [
-          {
-            "characters": [
-              "炎",
-              "帝",
-              "之",
-              "少",
-              "女"
-            ],
-            "pinyins": [
-              "yán",
-              "dì",
-              "zhī",
-              "shào",
-              "nǚ"
-            ]
-          },
-          {
-            "characters": [
-              "名",
-              "曰",
-              "女",
-              "娃"
-            ],
-            "pinyins": [
-              "míng",
-              "yuē",
-              "nǚ",
-              "wá"
-            ]
-          },
-          {
-            "characters": [
-              "女",
-              "娃",
-              "游",
-              "于",
-              "东",
-              "海"
-            ],
-            "pinyins": [
-              "nǚ",
-              "wá",
-              "yóu",
-              "yú",
-              "dōng",
-              "hǎi"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "神话",
-          "故事"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "炎帝的小女儿，名叫女娃。有一次，女娃去东海游玩，溺水身亡，再也没有回来，因此化为精卫鸟。经常叼着西山上的树枝和石块，用来填塞东海。"
-            ],
-            "annotation": [
-              "炎帝之少女：炎帝的小女儿。",
-              "溺：溺水，淹没。",
-              "故：因此。",
-              "堙：填塞。"
-            ]
-          }
-        ],
-        "title": "精卫填海",
-        "id": "77bf4e13-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d80c10-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -5739,7 +5573,7 @@ export default [
           }
         ],
         "title": "出塞",
-        "id": "77bf4e14-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d80c11-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -5855,7 +5689,7 @@ export default [
           }
         ],
         "title": "凉州词",
-        "id": "77bf4e15-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d80c12-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -5950,96 +5784,7 @@ export default [
           }
         ],
         "title": "夏日绝句",
-        "id": "77bf7520-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "宋",
-        "author": "佚名",
-        "lines": [
-          {
-            "characters": [
-              "王",
-              "戎",
-              "七",
-              "岁"
-            ],
-            "pinyins": [
-              "wáng",
-              "róng",
-              "qī",
-              "suì"
-            ]
-          },
-          {
-            "characters": [
-              "尝",
-              "与",
-              "诸",
-              "小",
-              "儿",
-              "游"
-            ],
-            "pinyins": [
-              "cháng",
-              "yǔ",
-              "zhū",
-              "xiǎo",
-              "ér",
-              "yóu"
-            ]
-          },
-          {
-            "characters": [
-              "看",
-              "道",
-              "边",
-              "李",
-              "树",
-              "多",
-              "子",
-              "折",
-              "枝"
-            ],
-            "pinyins": [
-              "kàn",
-              "dào",
-              "biān",
-              "lǐ",
-              "shù",
-              "duō",
-              "zǐ",
-              "zhé",
-              "zhī"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "故事",
-          "哲理"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "王戎七岁的时候，曾经和许多小孩一起嬉戏玩耍。他们看见路边李子树上果实累累，把树枝都压弯了。许多孩子都争相跑过去摘李子，只有王戎没有动。有人问他为什么不去摘李子，王戎回答说：“李树在路边竟然还有这么多李子，这一定是苦李子。”摘来一尝，的确如此。"
-            ],
-            "annotation": [
-              "王戎：西晋琅琊（今属山东）人，自幼聪明过人，为“竹林七贤”之一，官至尚书令，司徒。",
-              "尝：曾经。",
-              "诸：众多。",
-              "游：嬉戏玩耍。",
-              "子：李子。",
-              "折枝：压弯树枝。",
-              "竞走：争相地跑过去。",
-              "竞：争逐。",
-              "走：跑。",
-              "唯：只有。",
-              "信然：确实如此。"
-            ]
-          }
-        ],
-        "title": "王戎不取道旁李",
-        "id": "77bf7521-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d80c13-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -6132,7 +5877,7 @@ export default [
           }
         ],
         "title": "鹿柴",
-        "id": "77bf7522-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d80c14-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -6244,7 +5989,7 @@ export default [
           }
         ],
         "title": "嫦娥",
-        "id": "77bf7523-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d80c15-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -6353,7 +6098,7 @@ export default [
           }
         ],
         "title": "别董大",
-        "id": "77bf7524-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d83320-8255-11ea-9a8c-6f36b7b59df7"
       }
     ],
     [
@@ -6461,7 +6206,7 @@ export default [
           }
         ],
         "title": "四时田园杂兴",
-        "id": "77bfc340-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d88140-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -6570,7 +6315,7 @@ export default [
           }
         ],
         "title": "宿新市徐公店",
-        "id": "77bfc341-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d88141-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -6628,6 +6373,24 @@ export default [
           },
           {
             "characters": [
+              "白",
+              "发",
+              "谁",
+              "家",
+              "翁",
+              "媪"
+            ],
+            "pinyins": [
+              "bái",
+              "fà",
+              "shuí",
+              "jiā",
+              "wēng",
+              "ǎo"
+            ]
+          },
+          {
+            "characters": [
               "大",
               "儿",
               "锄",
@@ -6679,6 +6442,24 @@ export default [
               "wáng",
               "lài"
             ]
+          },
+          {
+            "characters": [
+              "溪",
+              "头",
+              "卧",
+              "剥",
+              "莲",
+              "蓬"
+            ],
+            "pinyins": [
+              "xī",
+              "tóu",
+              "wò",
+              "bāo",
+              "lián",
+              "péng"
+            ]
           }
         ],
         "keywords": [
@@ -6708,7 +6489,7 @@ export default [
           }
         ],
         "title": "清平乐·村居",
-        "id": "77bfea50-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d8a850-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -6826,7 +6607,7 @@ export default [
           }
         ],
         "title": "芙蓉楼送辛渐",
-        "id": "77bfea51-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d8a851-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -6924,7 +6705,7 @@ export default [
           }
         ],
         "title": "塞下曲",
-        "id": "77bfea52-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d8a852-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "元",
@@ -7040,172 +6821,7 @@ export default [
           }
         ],
         "title": "墨梅",
-        "id": "77bfea53-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "唐",
-        "author": "佚名",
-        "lines": [
-          {
-            "characters": [
-              "胤",
-              "恭",
-              "勤",
-              "不",
-              "倦"
-            ],
-            "pinyins": [
-              "yìn",
-              "gōng",
-              "qín",
-              "bù",
-              "juàn"
-            ]
-          },
-          {
-            "characters": [
-              "博",
-              "学",
-              "多",
-              "通"
-            ],
-            "pinyins": [
-              "bó",
-              "xué",
-              "duō",
-              "tōng"
-            ]
-          },
-          {
-            "characters": [
-              "家",
-              "贫",
-              "不",
-              "常",
-              "得",
-              "油"
-            ],
-            "pinyins": [
-              "jiā",
-              "pín",
-              "bù",
-              "cháng",
-              "dé",
-              "yóu"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "故事"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "晋朝人车胤谨慎勤劳而不知疲倦，知识广博，学问精通。他家境贫寒，不能经常得到香油。夏天的夜晚，车胤就用白绢做成透光的袋子，装几十个萤火虫照着书本，夜以继日地学习着。"
-            ],
-            "annotation": [
-              "囊萤：用袋子装萤火虫。",
-              "囊：文中作动词用，意思是“用袋子装”。",
-              "胤恭勤不倦：晋朝人车胤谨慎勤劳而不知疲倦。",
-              "恭：谨慎的意思。",
-              "练囊：用白色绢子做袋。练：白绢，文中作动词用，意思是\"用白绢做\"。",
-              "以夜继日：用夜晚接着白天（学习）。"
-            ]
-          }
-        ],
-        "title": "囊萤夜读",
-        "id": "77bfea54-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "宋",
-        "author": "祝穆",
-        "lines": [
-          {
-            "characters": [
-              "磨",
-              "针",
-              "溪"
-            ],
-            "pinyins": [
-              "mó",
-              "zhēn",
-              "xī"
-            ]
-          },
-          {
-            "characters": [
-              "在",
-              "象",
-              "耳",
-              "山",
-              "下"
-            ],
-            "pinyins": [
-              "zài",
-              "xiàng",
-              "ěr",
-              "shān",
-              "xià"
-            ]
-          },
-          {
-            "characters": [
-              "世",
-              "传",
-              "李",
-              "太",
-              "白",
-              "读",
-              "书",
-              "山",
-              "中"
-            ],
-            "pinyins": [
-              "shì",
-              "chuán",
-              "lǐ",
-              "tài",
-              "bái",
-              "dú",
-              "shū",
-              "shān",
-              "zhōng"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "寓言",
-          "故事",
-          "励志",
-          "哲理"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "磨针溪是在象耳山脚下。世世代代相传李白在山中读书的时候，没有完成好自己的学业，就放弃学习离开了。他路过一条小溪，遇见一位老妇人在磨铁棒，于是问她在干什么，老妇人说：“我想把它磨成针。”李白被她的精神感动，就回去完成学业。那老妇人自称姓武。现在那溪边还有一块武氏岩。"
-            ],
-            "annotation": [
-              "世传：世世代代相传。",
-              "成：完成。",
-              "去：离开。",
-              "逢：碰上。",
-              "媪：妇女的统称。",
-              "方：正在。",
-              "铁杵；铁棍，铁棒，杵，压米或捶衣用的棒，一头粗一头细的圆棒。",
-              "欲：想要。",
-              "感：被......感动。",
-              "还：回去。",
-              "之：代词，指代老妇人在做的事。",
-              "卒业：完成学业。",
-              "今：现在。",
-              "氏：姓…的人。"
-            ]
-          }
-        ],
-        "title": "铁杵成针",
-        "id": "77bfea55-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d8a853-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "近现",
@@ -7246,6 +6862,10 @@ export default [
               "yòng",
               "zhī"
             ]
+          },
+          {
+            "characters": [],
+            "pinyins": []
           },
           {
             "characters": [
@@ -7301,6 +6921,22 @@ export default [
           },
           {
             "characters": [
+              "犹",
+              "有",
+              "花",
+              "枝",
+              "俏"
+            ],
+            "pinyins": [
+              "yóu",
+              "yǒu",
+              "huā",
+              "zhī",
+              "qiào"
+            ]
+          },
+          {
+            "characters": [
               "俏",
               "也",
               "不",
@@ -7350,6 +6986,22 @@ export default [
               "màn",
               "shí"
             ]
+          },
+          {
+            "characters": [
+              "她",
+              "在",
+              "丛",
+              "中",
+              "笑"
+            ],
+            "pinyins": [
+              "tā",
+              "zài",
+              "cóng",
+              "zhōng",
+              "xiào"
+            ]
           }
         ],
         "keywords": [
@@ -7372,7 +7024,7 @@ export default [
           }
         ],
         "title": "卜算子·咏梅",
-        "id": "77bfea56-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d8cf60-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -7478,7 +7130,7 @@ export default [
           }
         ],
         "title": "江畔独步寻花",
-        "id": "77c01160-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d8cf61-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -7586,7 +7238,7 @@ export default [
           }
         ],
         "title": "蜂",
-        "id": "77c01161-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d8cf62-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -7682,7 +7334,7 @@ export default [
           }
         ],
         "title": "独坐敬亭山",
-        "id": "77c01162-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d8cf63-8255-11ea-9a8c-6f36b7b59df7"
       }
     ]
   ],
@@ -7805,7 +7457,7 @@ export default [
           }
         ],
         "title": "示儿",
-        "id": "77c05f80-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d91d80-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -7919,7 +7571,7 @@ export default [
           }
         ],
         "title": "题临安邸",
-        "id": "77c08690-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d91d81-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "清",
@@ -8030,111 +7682,7 @@ export default [
           }
         ],
         "title": "己亥杂诗",
-        "id": "77c08691-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "近现",
-        "author": "梁启超",
-        "lines": [
-          {
-            "characters": [
-              "故",
-              "今",
-              "日",
-              "之",
-              "责",
-              "任"
-            ],
-            "pinyins": [
-              "gù",
-              "jīn",
-              "rì",
-              "zhī",
-              "zé",
-              "rèn"
-            ]
-          },
-          {
-            "characters": [
-              "不",
-              "在",
-              "他",
-              "人"
-            ],
-            "pinyins": [
-              "bù",
-              "zài",
-              "tā",
-              "rén"
-            ]
-          },
-          {
-            "characters": [
-              "　",
-              "　",
-              "红",
-              "日",
-              "初",
-              "升"
-            ],
-            "pinyins": [
-              "　　",
-              "hóng",
-              "rì",
-              "chū",
-              "shēng"
-            ]
-          },
-          {
-            "characters": [
-              "其",
-              "道",
-              "大",
-              "光"
-            ],
-            "pinyins": [
-              "qí",
-              "dào",
-              "dà",
-              "guāng"
-            ]
-          },
-          {
-            "characters": [
-              "河",
-              "出",
-              "伏",
-              "流"
-            ],
-            "pinyins": [
-              "hé",
-              "chū",
-              "fú",
-              "liú"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "国家",
-          "愿望"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "所以说今天的责任，不在别人身上，全在我们少年身上。少年一代有智慧国家就智慧，少年富足国家就富足，少年强大国家就强大，少年独立国家就独立，少年自由国家就自由，少年进步国家就进步，少年胜过欧洲，国家就胜过欧洲，少年称雄于世界，国家就称雄于世界。"
-            ],
-            "annotation": [
-              "其道大光：语出《周易·益》：“自上下下，其道大光。”光，广大，发扬。",
-              "矞（yù）矞皇皇 ：《太玄经·交》：“物登明堂，矞矞皇皇。” 一般用于书面古语，光明盛大的样子。",
-              "干将发硎，有作其芒：意思是宝剑刚磨出来，锋刃大放光芒。",
-              "干将：原是铸剑师的名字，这里指宝剑。",
-              "硎：磨刀石。"
-            ]
-          }
-        ],
-        "title": "少年中国说(节选)",
-        "id": "77c08692-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d94490-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -8302,7 +7850,7 @@ export default [
           }
         ],
         "title": "山居秋暝",
-        "id": "77c08693-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d94491-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -8419,7 +7967,7 @@ export default [
           }
         ],
         "title": "枫桥夜泊",
-        "id": "77c08694-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d96ba0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "清",
@@ -8429,21 +7977,17 @@ export default [
             "characters": [
               "山",
               "一",
-              "程"
-            ],
-            "pinyins": [
-              "shān",
-              "yī",
-              "chéng"
-            ]
-          },
-          {
-            "characters": [
+              "程",
+              "，",
               "水",
               "一",
               "程"
             ],
             "pinyins": [
+              "shān",
+              "yī",
+              "chéng",
+              " ",
               "shuǐ",
               "yī",
               "chéng"
@@ -8451,26 +7995,94 @@ export default [
           },
           {
             "characters": [
+              "身",
+              "向",
+              "榆",
+              "关",
+              "那",
+              "畔",
+              "行"
+            ],
+            "pinyins": [
+              "shēn",
+              "xiàng",
+              "yú",
+              "guān",
+              "nà",
+              "pàn",
+              "háng"
+            ]
+          },
+          {
+            "characters": [
+              "夜",
+              "深",
+              "千",
+              "帐",
+              "灯"
+            ],
+            "pinyins": [
+              "yè",
+              "shēn",
+              "qiān",
+              "zhàng",
+              "dēng"
+            ]
+          },
+          {
+            "characters": [
               "风",
+              "一",
+              "更",
+              "，",
+              "雪",
               "一",
               "更"
             ],
             "pinyins": [
               "fēng",
               "yī",
+              "gēng",
+              " ",
+              "xuě",
+              "yī",
               "gēng"
             ]
           },
           {
             "characters": [
-              "雪",
-              "一",
-              "更"
+              "聒",
+              "碎",
+              "乡",
+              "心",
+              "梦",
+              "不",
+              "成"
             ],
             "pinyins": [
-              "xuě",
-              "yī",
-              "gēng"
+              "guō",
+              "suì",
+              "xiāng",
+              "xīn",
+              "mèng",
+              "bù",
+              "chéng"
+            ]
+          },
+          {
+            "characters": [
+              "故",
+              "园",
+              "无",
+              "此",
+              "声"
+            ],
+            "pinyins": [
+              "gù",
+              "yuán",
+              "wú",
+              "cǐ",
+              "shēng"
             ]
           }
         ],
@@ -8504,258 +8116,7 @@ export default [
           }
         ],
         "title": "长相思",
-        "id": "77c08695-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "未知",
-        "author": "佚名",
-        "lines": [
-          {
-            "characters": [
-              "论",
-              "语"
-            ],
-            "pinyins": [
-              "lún",
-              "yǔ"
-            ]
-          },
-          {
-            "characters": [
-              "敏",
-              "而",
-              "好",
-              "学"
-            ],
-            "pinyins": [
-              "mǐn",
-              "ér",
-              "hǎo",
-              "xué"
-            ]
-          },
-          {
-            "characters": [
-              "不",
-              "耻",
-              "下",
-              "问"
-            ],
-            "pinyins": [
-              "bù",
-              "chǐ",
-              "xià",
-              "wèn"
-            ]
-          },
-          {
-            "characters": [
-              "知",
-              "之",
-              "为",
-              "知",
-              "之"
-            ],
-            "pinyins": [
-              "zhī",
-              "zhī",
-              "wéi",
-              "zhī",
-              "zhī"
-            ]
-          },
-          {
-            "characters": [
-              "不",
-              "知",
-              "为",
-              "不",
-              "知"
-            ],
-            "pinyins": [
-              "bù",
-              "zhī",
-              "wéi",
-              "bù",
-              "zhī"
-            ]
-          },
-          {
-            "characters": [
-              "默",
-              "而",
-              "识",
-              "之"
-            ],
-            "pinyins": [
-              "mò",
-              "ér",
-              "shí",
-              "zhī"
-            ]
-          },
-          {
-            "characters": [
-              "学",
-              "而",
-              "不",
-              "厌"
-            ],
-            "pinyins": [
-              "xué",
-              "ér",
-              "bù",
-              "yàn"
-            ]
-          },
-          {
-            "characters": [
-              "朱",
-              "熹"
-            ],
-            "pinyins": [
-              "zhū",
-              "xī"
-            ]
-          },
-          {
-            "characters": [
-              "余",
-              "尝",
-              "谓",
-              "：",
-              "读",
-              "书",
-              "有",
-              "三",
-              "到"
-            ],
-            "pinyins": [
-              "yú",
-              "cháng",
-              "wèi",
-              "：",
-              "dú",
-              "shū",
-              "yǒu",
-              "sān",
-              "dào"
-            ]
-          },
-          {
-            "characters": [
-              "谓",
-              "心",
-              "到",
-              "、",
-              "眼",
-              "到",
-              "、",
-              "口",
-              "到"
-            ],
-            "pinyins": [
-              "wèi",
-              "xīn",
-              "dào",
-              "、",
-              "yǎn",
-              "dào",
-              "、",
-              "kǒu",
-              "dào"
-            ]
-          },
-          {
-            "characters": [
-              "心",
-              "不",
-              "在",
-              "此"
-            ],
-            "pinyins": [
-              "xīn",
-              "bù",
-              "zài",
-              "cǐ"
-            ]
-          },
-          {
-            "characters": [
-              "曾",
-              "国",
-              "藩"
-            ],
-            "pinyins": [
-              "zēng",
-              "guó",
-              "fān"
-            ]
-          },
-          {
-            "characters": [
-              "盖",
-              "士",
-              "人",
-              "读",
-              "书"
-            ],
-            "pinyins": [
-              "gài",
-              "shì",
-              "rén",
-              "dú",
-              "shū"
-            ]
-          },
-          {
-            "characters": [
-              "第",
-              "一",
-              "要",
-              "有",
-              "志"
-            ],
-            "pinyins": [
-              "dì",
-              "yī",
-              "yào",
-              "yǒu",
-              "zhì"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "读书"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "天资聪明而又好学的人，不以向地位比自己低、学识比自己差的人请教为耻。",
-              "知道就是知道，不知道就是不知道，这样才是真正的智慧。",
-              "默默地记住所学的知识，学习不觉得满足，教人不知道疲倦。"
-            ],
-            "annotation": [
-              "敏：聪明。",
-              "好：喜好。",
-              "耻：以……为耻。",
-              "知：通“智”，聪明，智慧。",
-              "厌：满足。",
-              "诲：教导。",
-              "谓：说。",
-              "漫浪：随随便便。",
-              "急：要紧。",
-              "盖：在句首，发语词。",
-              "士人：泛指知识阶层。",
-              "恒：恒心。",
-              "下流：下等，劣等。",
-              "断：副词，表示绝对、一定。"
-            ]
-          }
-        ],
-        "title": "古人谈读书",
-        "id": "77c08696-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d96ba1-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -8846,7 +8207,7 @@ export default [
           }
         ],
         "title": "蝉",
-        "id": "77c0ada0-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d96ba2-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -8952,7 +8313,7 @@ export default [
           }
         ],
         "title": "乞巧",
-        "id": "77c0ada1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d992b0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -9002,24 +8363,40 @@ export default [
             "characters": [
               "青",
               "箬",
-              "笠"
-            ],
-            "pinyins": [
-              "qīng",
-              "ruò",
-              "lì"
-            ]
-          },
-          {
-            "characters": [
+              "笠",
+              "，",
               "绿",
               "蓑",
               "衣"
             ],
             "pinyins": [
+              "qīng",
+              "ruò",
+              "lì",
+              " ",
               "lǜ",
               "suō",
               "yī"
+            ]
+          },
+          {
+            "characters": [
+              "斜",
+              "风",
+              "细",
+              "雨",
+              "不",
+              "须",
+              "归"
+            ],
+            "pinyins": [
+              "xié",
+              "fēng",
+              "xì",
+              "yǔ",
+              "bù",
+              "xū",
+              "guī"
             ]
           }
         ],
@@ -9052,7 +8429,7 @@ export default [
           }
         ],
         "title": "渔歌子",
-        "id": "77c0ada2-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d992b1-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -9171,7 +8548,7 @@ export default [
           }
         ],
         "title": "观书有感·其一",
-        "id": "77c0ada3-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d992b2-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -9279,7 +8656,7 @@ export default [
           }
         ],
         "title": "观书有感·其二",
-        "id": "77c0ada4-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8d992b3-8255-11ea-9a8c-6f36b7b59df7"
       }
     ],
     [
@@ -9395,7 +8772,7 @@ export default [
           }
         ],
         "title": "四时田园杂兴·其三十一",
-        "id": "77c122d0-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db1950-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -9504,7 +8881,7 @@ export default [
           }
         ],
         "title": "稚子弄冰",
-        "id": "77c122d1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db1951-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -9629,7 +9006,7 @@ export default [
           }
         ],
         "title": "村晚",
-        "id": "77c122d2-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db1952-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -9743,7 +9120,7 @@ export default [
           }
         ],
         "title": "从军行七首·其四",
-        "id": "77c122d3-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db1953-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -9856,7 +9233,7 @@ export default [
           }
         ],
         "title": "秋夜将晓出篱门迎凉有感",
-        "id": "77c122d4-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db1954-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -10063,176 +9440,7 @@ export default [
           }
         ],
         "title": "闻官军收河南河北",
-        "id": "77c122d5-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "先秦",
-        "author": "韩非",
-        "lines": [
-          {
-            "characters": [
-              "楚",
-              "人",
-              "有",
-              "鬻",
-              "盾",
-              "与",
-              "矛",
-              "者"
-            ],
-            "pinyins": [
-              "chǔ",
-              "rén",
-              "yǒu",
-              "yù",
-              "dùn",
-              "yǔ",
-              "máo",
-              "zhě"
-            ]
-          },
-          {
-            "characters": [
-              "誉",
-              "之",
-              "曰",
-              "：",
-              "“",
-              "吾",
-              "盾",
-              "之",
-              "坚"
-            ],
-            "pinyins": [
-              "yù",
-              "zhī",
-              "yuē",
-              "：“",
-              "wú",
-              "dùn",
-              "zhī",
-              "jiān"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "哲理",
-          "故事"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "有一个楚国人，既卖盾又卖矛。他夸耀自己的盾，说：“我的盾坚固无比，没有什么东西能够穿透它。”又夸耀自己的矛，说：“我的矛锋利极了，任何坚固的东西都穿得透。”有人问他：“如果用您的矛刺您的盾，结果会怎么样呢？”那人张口结舌，一句话也回答不上来。什么都不能刺穿的盾与什么都能刺穿的矛，不可能同时存在于这个世界上。"
-            ],
-            "annotation": [
-              "矛:古代用来刺杀敌人的长柄兵器，矛的基本形制有狭叶、阔叶、长叶、叶刃带系和凹口骹式等。",
-              "盾:盾牌,古代作战时遮挡刀剑用。",
-              "誉：赞誉，夸耀。",
-              "曰：说，讲。",
-              "吾：我。",
-              "陷：穿透、刺穿的意思 。",
-              "或：有人。",
-              "以：使用；用。",
-              "子：您，对人的尊称。",
-              "何如：怎么样。",
-              "应：回答。",
-              "利：锋利，锐利。",
-              "其：助词。这里指那个卖矛和盾的人。",
-              "弗能：不能。",
-              "之：的。",
-              "鬻（yù)：卖。",
-              "者：...的人。",
-              "莫：没有什么。",
-              "夫：用在句首，引起议论。"
-            ]
-          }
-        ],
-        "title": "自相矛盾",
-        "id": "77c122d6-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "南北朝",
-        "author": "刘义庆",
-        "lines": [
-          {
-            "characters": [
-              "梁",
-              "国",
-              "杨",
-              "氏",
-              "子",
-              "九",
-              "岁"
-            ],
-            "pinyins": [
-              "liáng",
-              "guó",
-              "yáng",
-              "shì",
-              "zǐ",
-              "jiǔ",
-              "suì"
-            ]
-          },
-          {
-            "characters": [
-              "甚",
-              "聪",
-              "惠"
-            ],
-            "pinyins": [
-              "shèn",
-              "cōng",
-              "huì"
-            ]
-          },
-          {
-            "characters": [
-              "孔",
-              "君",
-              "平",
-              "诣",
-              "其",
-              "父"
-            ],
-            "pinyins": [
-              "kǒng",
-              "jūn",
-              "píng",
-              "yì",
-              "qí",
-              "fù"
-            ]
-          }
-        ],
-        "keywords": [
-          "儿童",
-          "小学文言文"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "梁国一户姓杨的人家家里有一个九岁的儿子，非常聪明。孔君平来拜见他的父亲，恰巧他父亲不在，于是便叫他出来。他为孔君平端来水果，水果中有杨梅，孔君平指着杨梅给孩子看，并说：“这是你家的水果。”杨氏子马上回答说：“没听说孔雀是先生您家的鸟。”"
-            ],
-            "annotation": [
-              "孔君平：孔坦，字君平，官至延尉。",
-              "氏：姓氏，表示家族的姓。",
-              "夫子：旧时对学者或老师的尊称。",
-              "设：摆放，摆设。",
-              "甚：非常。",
-              "诣：拜见。",
-              "未闻：没有听说过。",
-              "示：给……看。",
-              "惠：惠同“慧”，智慧的意思。",
-              "乃：就；于是。",
-              "曰：说。",
-              "未：没有。"
-            ]
-          }
-        ],
-        "title": "杨氏之子",
-        "id": "77c122d7-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db4060-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -10374,7 +9582,7 @@ export default [
           }
         ],
         "title": "游子吟",
-        "id": "77c122d8-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db4061-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -10473,7 +9681,7 @@ export default [
           }
         ],
         "title": "鸟鸣涧",
-        "id": "77c149e0-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db4062-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -10590,7 +9798,7 @@ export default [
           }
         ],
         "title": "凉州词二首·其一",
-        "id": "77c149e1-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db4063-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -10709,7 +9917,7 @@ export default [
           }
         ],
         "title": "黄鹤楼送孟浩然之广陵",
-        "id": "77c149e2-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db4064-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -10821,7 +10029,7 @@ export default [
           }
         ],
         "title": "乡村四月",
-        "id": "77c149e3-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8db4065-8255-11ea-9a8c-6f36b7b59df7"
       }
     ]
   ],
@@ -10923,7 +10131,7 @@ export default [
           }
         ],
         "title": "宿建德江",
-        "id": "77c1bf10-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dc9ff0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -11034,7 +10242,7 @@ export default [
           }
         ],
         "title": "六月二十七日望湖楼醉书",
-        "id": "77c1bf11-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dc9ff1-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -11098,6 +10306,24 @@ export default [
           },
           {
             "characters": [
+              "听",
+              "取",
+              "蛙",
+              "声",
+              "一",
+              "片"
+            ],
+            "pinyins": [
+              "tīng",
+              "qǔ",
+              "wā",
+              "shēng",
+              "yī",
+              "piàn"
+            ]
+          },
+          {
+            "characters": [
               "七",
               "八",
               "个",
@@ -11151,6 +10377,24 @@ export default [
               "lín",
               "biān"
             ]
+          },
+          {
+            "characters": [
+              "路",
+              "转",
+              "溪",
+              "桥",
+              "忽",
+              "见"
+            ],
+            "pinyins": [
+              "lù",
+              "zhuǎn",
+              "xī",
+              "qiáo",
+              "hū",
+              "jiàn"
+            ]
           }
         ],
         "keywords": [
@@ -11181,7 +10425,7 @@ export default [
           }
         ],
         "title": "西江月·夜行黄沙道中",
-        "id": "77c1bf12-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dc9ff2-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "近现",
@@ -11383,7 +10627,7 @@ export default [
           }
         ],
         "title": "七律·长征",
-        "id": "77c1bf13-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dcc700-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -11497,7 +10741,7 @@ export default [
           }
         ],
         "title": "浪淘沙·其一",
-        "id": "77c1e620-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dcc701-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -11617,7 +10861,7 @@ export default [
           }
         ],
         "title": "江南春",
-        "id": "77c1e621-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dcc702-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -11728,198 +10972,7 @@ export default [
           }
         ],
         "title": "书湖阴先生壁",
-        "id": "77c1e622-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "先秦",
-        "author": "佚名",
-        "lines": [
-          {
-            "characters": [
-              "伯",
-              "牙",
-              "鼓",
-              "琴"
-            ],
-            "pinyins": [
-              "bó",
-              "yá",
-              "gǔ",
-              "qín"
-            ]
-          },
-          {
-            "characters": [
-              "锺",
-              "子",
-              "期",
-              "听",
-              "之"
-            ],
-            "pinyins": [
-              "zhōng",
-              "zǐ",
-              "qī",
-              "tīng",
-              "zhī"
-            ]
-          },
-          {
-            "characters": [
-              "方",
-              "鼓",
-              "琴",
-              "而",
-              "志",
-              "在",
-              "太",
-              "山"
-            ],
-            "pinyins": [
-              "fāng",
-              "gǔ",
-              "qín",
-              "ér",
-              "zhì",
-              "zài",
-              "tài",
-              "shān"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "音乐",
-          "知音",
-          "故事"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "伯牙弹琴，锺子期听他弹琴。伯牙在弹琴时心里想着高山，锺子期说：“你弹得真好呀，就像那巍峨的太山。”不一会儿，伯牙心里又想到流水，锺子期又说：“你弹得真好呀，就像那奔腾不息的流水。”锺子期死了以后，伯牙摔琴断弦，终身不再弹琴，认为世上再没有值得他为之弹琴的人了。"
-            ],
-            "annotation": [
-              "鼓：弹奏。",
-              "听：倾听。",
-              "绝 ：断绝。",
-              "志在高山：心中想到高山。",
-              "曰：说。",
-              "善哉：赞美之词，有夸奖的意思。即“好啊” 、“妙啊”或“太棒了”。善，好；哉，语气词，表示感叹。",
-              "峨峨：高。",
-              "乎：语气词，相当于“啊”。",
-              "若 ：像……一样。",
-              "少选：一会儿，不久。",
-              "志在流水：心里想到河流。",
-              "汤汤乎若流水：像流水一样浩荡。",
-              "汤汤：水流大而急的样子。"
-            ]
-          }
-        ],
-        "title": "伯牙鼓琴",
-        "id": "77c1e623-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "宋",
-        "author": "苏轼",
-        "lines": [
-          {
-            "characters": [
-              "蜀",
-              "中",
-              "有",
-              "杜",
-              "处",
-              "士",
-              " "
-            ],
-            "pinyins": [
-              "shǔ",
-              "zhōng",
-              "yǒu",
-              "dù",
-              "chǔ",
-              "shì",
-              " "
-            ]
-          },
-          {
-            "characters": [
-              "好",
-              "书",
-              "画"
-            ],
-            "pinyins": [
-              "hǎo",
-              "shū",
-              "huà"
-            ]
-          },
-          {
-            "characters": [
-              "　",
-              "　",
-              "一",
-              "日",
-              "曝",
-              "书",
-              "画"
-            ],
-            "pinyins": [
-              "　　",
-              "yī",
-              "rì",
-              "pù",
-              "shū",
-              "huà"
-            ]
-          },
-          {
-            "characters": [
-              "而",
-              "一",
-              "牧",
-              "童",
-              "见",
-              "之"
-            ],
-            "pinyins": [
-              "ér",
-              "yī",
-              "mù",
-              "tóng",
-              "jiàn",
-              "zhī"
-            ]
-          }
-        ],
-        "keywords": [
-          "寓理",
-          "故事",
-          "小学文言文"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "四川境内有个姓杜的隐士，爱好书画，他珍藏的书画作品有成百件，有戴嵩画的《牛》一幅，他特别喜爱，用锦囊盛起来，用玉石作画轴，经常随身携带着。"
-            ],
-            "annotation": [
-              "杜处士：姓杜的读书人。",
-              "宝：这里是动词，珍藏。",
-              "囊：袋子，此处指画套。用彩锦做装画的袋子，用玉石做卷画的轴子。",
-              "曝：晾、晒。",
-              "搐：抽搐，收缩。",
-              "掉：摇着尾巴。掉，摆动，摇动。",
-              "然：认为⋯⋯是对的。",
-              "所宝：所珍藏的画。",
-              "戴嵩：唐代画家。",
-              "锦襄玉轴：以玉为轴，用锦囊盛起来。",
-              "拊掌：拍手。",
-              "翘起尾巴。"
-            ]
-          }
-        ],
-        "title": "书戴嵩画牛",
-        "id": "77c1e624-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dcc703-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -12089,7 +11142,7 @@ export default [
           }
         ],
         "title": "过故人庄",
-        "id": "77c1e625-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dcc704-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "近现",
@@ -12153,6 +11206,22 @@ export default [
           },
           {
             "characters": [
+              "关",
+              "山",
+              "阵",
+              "阵",
+              "苍"
+            ],
+            "pinyins": [
+              "guān",
+              "shān",
+              "zhèn",
+              "zhèn",
+              "cāng"
+            ]
+          },
+          {
+            "characters": [
               "当",
               "年",
               "鏖",
@@ -12198,6 +11267,22 @@ export default [
               "guān",
               "shān"
             ]
+          },
+          {
+            "characters": [
+              "今",
+              "朝",
+              "更",
+              "好",
+              "看"
+            ],
+            "pinyins": [
+              "jīn",
+              "zhāo",
+              "gēng",
+              "hǎo",
+              "kàn"
+            ]
           }
         ],
         "keywords": [
@@ -12231,7 +11316,7 @@ export default [
           }
         ],
         "title": "菩萨蛮·大柏地",
-        "id": "77c1e626-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dcee10-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -12349,7 +11434,7 @@ export default [
           }
         ],
         "title": "春日",
-        "id": "77c1e627-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dcee11-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -12461,7 +11546,7 @@ export default [
           }
         ],
         "title": "回乡偶书",
-        "id": "77c20d30-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8dcee12-8255-11ea-9a8c-6f36b7b59df7"
       }
     ],
     [
@@ -12575,7 +11660,7 @@ export default [
           }
         ],
         "title": "寒食",
-        "id": "77c28260-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de4da0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "两汉",
@@ -12780,7 +11865,7 @@ export default [
           }
         ],
         "title": "迢迢牵牛星",
-        "id": "77c2a970-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de4da1-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -12892,7 +11977,7 @@ export default [
           }
         ],
         "title": "十五夜望月",
-        "id": "77c2a971-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de4da2-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -12988,7 +12073,7 @@ export default [
           }
         ],
         "title": "马诗",
-        "id": "77c2a972-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de4da3-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "明",
@@ -13106,7 +12191,7 @@ export default [
           }
         ],
         "title": "石灰吟",
-        "id": "77c2a973-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de4da4-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "清",
@@ -13238,500 +12323,7 @@ export default [
           }
         ],
         "title": "竹石",
-        "id": "77c2a974-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "先秦",
-        "author": "佚名",
-        "lines": [
-          {
-            "characters": [
-              "弈",
-              "秋"
-            ],
-            "pinyins": [
-              "yì",
-              "qiū"
-            ]
-          },
-          {
-            "characters": [
-              "通",
-              "国",
-              "之",
-              "善",
-              "弈",
-              "者",
-              "也"
-            ],
-            "pinyins": [
-              "tōng",
-              "guó",
-              "zhī",
-              "shàn",
-              "yì",
-              "zhě",
-              "yě"
-            ]
-          },
-          {
-            "characters": [
-              "使",
-              "弈",
-              "秋",
-              "诲",
-              "二",
-              "人",
-              "弈"
-            ],
-            "pinyins": [
-              "shǐ",
-              "yì",
-              "qiū",
-              "huì",
-              "èr",
-              "rén",
-              "yì"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "寓言",
-          "故事",
-          "学习",
-          "哲理"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "弈秋是全国最擅长下棋的人。让弈秋教导两个人下棋，其中一人专心致志的学习，只听弈秋的教导；另一个人虽然也在听弈秋的教导，却一心以为有大雁要飞来，想要拉弓箭将它射下来。虽然他们二人一起学习下棋，但后者的棋艺不如前者好。难道是因为他的智力比别人差吗？说：不是这样的。"
-            ],
-            "annotation": [
-              "弈：下棋。（围棋）",
-              "秋：人名，因他善于下棋，所以称为弈秋。",
-              "通国：全国。",
-              "通：全。",
-              "之：的。",
-              "善：善于，擅长。",
-              "使：让。",
-              "诲：教导。",
-              "其：其中。",
-              "惟弈秋之为听：只听弈秋（的教导）。",
-              "虽听之：虽然在听讲。",
-              "以为：认为，觉得。",
-              "鸿鹄：指天鹅、大雁一类的鸟。",
-              "援：引，拉。",
-              "将至：将要到来。",
-              "思：想。",
-              "弓缴：弓箭。",
-              "缴：古时指带有丝绳的箭。",
-              "之：代词，这里指鸿鹄。",
-              "虽与之俱学：虽然这个人和那个专心致志的人在一起学习。",
-              "弗若之矣：成绩却不如另外一个人。",
-              "为是其智弗若与：因为他的智力比别人差吗？",
-              "曰：说。",
-              "非然也：不是这样的。",
-              "矣：了。",
-              "弗：不如。"
-            ]
-          }
-        ],
-        "title": "学弈",
-        "id": "77c2a975-8134-11ea-9149-af5cd5c4fc93"
-      },
-      {
-        "dynasty": "先秦",
-        "author": "列御寇",
-        "lines": [
-          {
-            "characters": [
-              "孔",
-              "子",
-              "东",
-              "游"
-            ],
-            "pinyins": [
-              "kǒng",
-              "zǐ",
-              "dōng",
-              "yóu"
-            ]
-          },
-          {
-            "characters": [
-              "见",
-              "两",
-              "小",
-              "儿",
-              "辩",
-              "斗"
-            ],
-            "pinyins": [
-              "jiàn",
-              "liǎng",
-              "xiǎo",
-              "ér",
-              "biàn",
-              "dǒu"
-            ]
-          },
-          {
-            "characters": [
-              "一",
-              "儿",
-              "曰",
-              "：",
-              "“",
-              "我",
-              "以",
-              "日",
-              "始",
-              "出",
-              "时",
-              "去",
-              "人",
-              "近"
-            ],
-            "pinyins": [
-              "yī",
-              "ér",
-              "yuē",
-              "：“",
-              "wǒ",
-              "yǐ",
-              "rì",
-              "shǐ",
-              "chū",
-              "shí",
-              "qù",
-              "rén",
-              "jìn"
-            ]
-          },
-          {
-            "characters": [
-              "而",
-              "日",
-              "中",
-              "时",
-              "远",
-              "也"
-            ],
-            "pinyins": [
-              "ér",
-              "rì",
-              "zhōng",
-              "shí",
-              "yuǎn",
-              "yě"
-            ]
-          },
-          {
-            "characters": [
-              "”"
-            ],
-            "pinyins": [
-              "”"
-            ]
-          },
-          {
-            "characters": [
-              "一",
-              "儿",
-              "曰",
-              "：",
-              "“",
-              "我",
-              "以",
-              "日",
-              "初",
-              "出",
-              "远"
-            ],
-            "pinyins": [
-              "yī",
-              "ér",
-              "yuē",
-              "：“",
-              "wǒ",
-              "yǐ",
-              "rì",
-              "chū",
-              "chū",
-              "yuǎn"
-            ]
-          },
-          {
-            "characters": [
-              "而",
-              "日",
-              "中",
-              "时",
-              "近",
-              "也"
-            ],
-            "pinyins": [
-              "ér",
-              "rì",
-              "zhōng",
-              "shí",
-              "jìn",
-              "yě"
-            ]
-          },
-          {
-            "characters": [
-              "”"
-            ],
-            "pinyins": [
-              "”"
-            ]
-          },
-          {
-            "characters": [
-              "一",
-              "儿",
-              "曰",
-              "：",
-              "“",
-              "日",
-              "初",
-              "出",
-              "大",
-              "如",
-              "车",
-              "盖"
-            ],
-            "pinyins": [
-              "yī",
-              "ér",
-              "yuē",
-              "：“",
-              "rì",
-              "chū",
-              "chū",
-              "dà",
-              "rú",
-              "chē",
-              "gài"
-            ]
-          },
-          {
-            "characters": [
-              "及",
-              "日",
-              "中",
-              "则",
-              "如",
-              "盘",
-              "盂"
-            ],
-            "pinyins": [
-              "jí",
-              "rì",
-              "zhōng",
-              "zé",
-              "rú",
-              "pán",
-              "yú"
-            ]
-          },
-          {
-            "characters": [
-              "一",
-              "儿",
-              "曰",
-              "：",
-              "“",
-              "日",
-              "初",
-              "出",
-              "沧",
-              "沧",
-              "凉",
-              "凉"
-            ],
-            "pinyins": [
-              "yī",
-              "ér",
-              "yuē",
-              "：“",
-              "rì",
-              "chū",
-              "chū",
-              "cāng",
-              "cāng",
-              "liáng",
-              "liáng"
-            ]
-          },
-          {
-            "characters": [
-              "及",
-              "其",
-              "日",
-              "中",
-              "如",
-              "探",
-              "汤"
-            ],
-            "pinyins": [
-              "jí",
-              "qí",
-              "rì",
-              "zhōng",
-              "rú",
-              "tàn",
-              "tāng"
-            ]
-          },
-          {
-            "characters": [
-              "孔",
-              "子",
-              "不",
-              "能",
-              "决",
-              "也",
-              "。"
-            ],
-            "pinyins": [
-              "kǒng",
-              "zǐ",
-              "bù",
-              "néng",
-              "jué",
-              "yě",
-              " "
-            ]
-          },
-          {
-            "characters": [
-              "两",
-              "小",
-              "儿",
-              "笑",
-              "曰",
-              "：",
-              "“",
-              "孰",
-              "为",
-              "汝",
-              "多",
-              "知",
-              "乎"
-            ],
-            "pinyins": [
-              "liǎng",
-              "xiǎo",
-              "ér",
-              "xiào",
-              "yuē",
-              "：“",
-              "shú",
-              "wéi",
-              "rǔ",
-              "duō",
-              "zhī",
-              "hū"
-            ]
-          },
-          {
-            "characters": [
-              "”"
-            ],
-            "pinyins": [
-              "”"
-            ]
-          }
-        ],
-        "keywords": [
-          "小学文言文",
-          "儿童",
-          "对话",
-          "哲理",
-          "寓言"
-        ],
-        "annotations": [
-          {
-            "translation": [
-              "孔子向东游历，见到两个小孩在争辩，就问他们在争辩的原因。",
-              "一个小孩子说：“我认为太阳刚刚升起的时候距离人近，而正午的时候距离人远。”",
-              "另一个小孩子认为太阳刚刚升起的时候距离人比较远，而正午的时候距离人比较近。",
-              "一个小孩儿说：“太阳刚出时像车的车盖一样大，到了中午时就如同盘子一般小了，这不是远小近大的道理吗？”",
-              "另一个小孩儿说：“太阳刚出来时凉爽，到了中午的时候热得如同把手伸进热水中，这不是近的就感觉热，而远就觉得凉的道理吗？”",
-              "孔子听了之后不能判断他们俩谁对谁错。",
-              "两个小孩子笑着对孔子说：“是谁说你智慧多呢？”"
-            ],
-            "annotation": [
-              "东：东方。",
-              "游：游历、游学。",
-              "见：看见。",
-              "辩斗：辩论，争论.",
-              "辩：争。",
-              "其：代词，他们。",
-              "故：缘故，原因。",
-              "以：认为。",
-              "始：刚刚，才。",
-              "去：离；距离。",
-              "日中：正午。",
-              "初：刚刚。",
-              "车盖：古时车上的篷盖，像雨伞一样，呈圆形。",
-              "及：到。",
-              "则：就。",
-              "盘盂：盛物的器皿。圆者为盘，方者为盂。",
-              "为：是。",
-              "沧沧凉凉：形容清凉的感觉。沧沧：寒冷的意思。",
-              "探汤：把手伸向热水里。汤，热水，开水。（古时还特指沐浴时用的热水。）在文中的意思是天气很热。",
-              "决：决断，判定，判断。",
-              "孰：谁。",
-              "为：同“谓”，说，认为。",
-              "汝：你。",
-              "知：zhì，通假字。“知”通 “智”聪明、智慧。",
-              "笑：在这里不是嘲笑，在这里突出了孩子们的天真可爱",
-              "沧沧凉凉:形容清凉而略带寒意。"
-            ]
-          },
-          {
-            "translation": [
-              "孔子到东方游历，途中遇见两个小孩在争辩，便问他们争辩的原因。",
-              "有一个小孩说：“我认为太阳刚升起时距离人近（我以/日/始出/时/去人近），而到中午的时候距离人远。”",
-              "另一个小孩则认为太阳刚升起的时候距离人远，而到中午的时候距离人近。",
-              "一个小孩说：“太阳刚升起的时候大得像一个车盖，等到正午就小得像一个盘子，这不是远处的看着小而近处 的看着大吗？”",
-              "另一个小孩说：“太阳刚升起的时候清凉而略带寒意，等到中午的时候像手伸进热水里一样热，这不是近的时候感觉热而远的时候感觉凉吗？”",
-              "孔子不能判决（谁对谁错）。",
-              "两个孩子笑着说：“谁说你知识渊博呢？”"
-            ],
-            "annotation": [
-              "选自《列子·汤问》。原文共十三章，这是第七章。《列子》成书于春秋战国时期，由列御寇编写。",
-              "东游：向东游历。",
-              "见：看见。",
-              "辩斗：辩论，争论。",
-              "其：代词，两小儿。",
-              "故：缘故，原因。",
-              "以：以为，认为。",
-              "始：刚刚，才。",
-              "去：距离。",
-              "日中：正午。",
-              "初：刚刚。",
-              "盖：车篷，古时车上的篷盖，像雨伞一样，呈圆形。",
-              "及：到，至。",
-              "则：就。",
-              "盘盂（yú）：古代盛放食物的器皿。圆者为盘，方者为盂。",
-              "为：是。",
-              "沧沧凉凉：清凉，略带寒意。沧沧：寒冷的意思。",
-              "探汤：把手伸向热水里。汤，热水，在文中的意思是天气很热。",
-              "决：决断，判定，判断。",
-              "笑：嘲笑，讥讽。在这里不是嘲笑，在这里突出了孩子们的天真可爱。",
-              "孰（shú）为汝（rǔ）多知（zhì）乎？：谁说你知识渊博呢？孰，谁。为，同“谓”，说，认为。",
-              "汝：你。",
-              "知：同 “智”，智慧。"
-            ]
-          }
-        ],
-        "title": "两小儿辩日",
-        "id": "77c2a976-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de4da5-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "两汉",
@@ -13929,7 +12521,7 @@ export default [
           }
         ],
         "title": "长歌行",
-        "id": "77c2d080-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de74b0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "先秦",
@@ -14074,7 +12666,7 @@ export default [
           }
         ],
         "title": "采薇(节选)",
-        "id": "77c2d081-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de74b1-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -14188,7 +12780,7 @@ export default [
           }
         ],
         "title": "送元二使安西",
-        "id": "77c2d082-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de74b2-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -14377,7 +12969,7 @@ export default [
           }
         ],
         "title": "春夜喜雨",
-        "id": "77c2d083-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de74b3-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "唐",
@@ -14485,7 +13077,7 @@ export default [
           }
         ],
         "title": "早春呈水部张十八员外",
-        "id": "77c2d084-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de74b4-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -14585,7 +13177,7 @@ export default [
           }
         ],
         "title": "江上渔者",
-        "id": "77c2d085-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de74b5-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -14701,7 +13293,7 @@ export default [
           }
         ],
         "title": "泊船瓜洲",
-        "id": "77c2f790-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de74b6-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -14813,7 +13405,7 @@ export default [
           }
         ],
         "title": "游园不值",
-        "id": "77c2f791-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de9bc0-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -14938,6 +13530,22 @@ export default [
               "shàng",
               "chūn"
             ]
+          },
+          {
+            "characters": [
+              "千",
+              "万",
+              "和",
+              "春",
+              "住"
+            ],
+            "pinyins": [
+              "qiān",
+              "wàn",
+              "hé",
+              "chūn",
+              "zhù"
+            ]
           }
         ],
         "keywords": [
@@ -14968,7 +13576,7 @@ export default [
           }
         ],
         "title": "卜算子·送鲍浩然之浙东",
-        "id": "77c2f792-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de9bc1-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -15005,6 +13613,24 @@ export default [
               "lán",
               "xī"
             ]
+          },
+          {
+            "characters": [
+              "溪",
+              "水",
+              "西",
+              "流"
+            ],
+            "pinyins": [
+              "xī",
+              "shuǐ",
+              "xī",
+              "liú"
+            ]
+          },
+          {
+            "characters": [],
+            "pinyins": []
           },
           {
             "characters": [
@@ -15155,7 +13781,7 @@ export default [
           }
         ],
         "title": "浣溪沙·游蕲水清泉寺",
-        "id": "77c2f793-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de9bc2-8255-11ea-9a8c-6f36b7b59df7"
       },
       {
         "dynasty": "宋",
@@ -15166,14 +13792,33 @@ export default [
               "春",
               "归",
               "何",
-              "处",
-              "？",
+              "处"
+            ],
+            "pinyins": [
+              "chūn",
+              "guī",
+              "hé",
+              "chǔ"
+            ]
+          },
+          {
+            "characters": [
               "寂",
               "寞",
               "无",
               "行",
-              "路",
-              "。",
+              "路"
+            ],
+            "pinyins": [
+              "jì",
+              "mò",
+              "wú",
+              "xíng",
+              "lù"
+            ]
+          },
+          {
+            "characters": [
               "若",
               "有",
               "人",
@@ -15183,17 +13828,6 @@ export default [
               "处"
             ],
             "pinyins": [
-              "chūn",
-              "guī",
-              "hé",
-              "chǔ",
-              "？",
-              "jì",
-              "mò",
-              "wú",
-              "xíng",
-              "lù",
-              " ",
               "ruò",
               "yǒu",
               "rén",
@@ -15228,15 +13862,37 @@ export default [
               "踪",
               "迹",
               "谁",
-              "知",
-              "？",
+              "知"
+            ],
+            "pinyins": [
+              "chūn",
+              "wú",
+              "zōng",
+              "jì",
+              "shuí",
+              "zhī"
+            ]
+          },
+          {
+            "characters": [
               "除",
               "非",
               "问",
               "取",
               "黄",
-              "鹂",
-              "。",
+              "鹂"
+            ],
+            "pinyins": [
+              "chú",
+              "fēi",
+              "wèn",
+              "qǔ",
+              "huáng",
+              "lí"
+            ]
+          },
+          {
+            "characters": [
               "百",
               "啭",
               "无",
@@ -15245,20 +13901,6 @@ export default [
               "解"
             ],
             "pinyins": [
-              "chūn",
-              "wú",
-              "zōng",
-              "jì",
-              "shuí",
-              "zhī",
-              "？",
-              "chú",
-              "fēi",
-              "wèn",
-              "qǔ",
-              "huáng",
-              "lí",
-              " ",
               "bǎi",
               "zhuàn",
               "wú",
@@ -15313,7 +13955,7 @@ export default [
           }
         ],
         "title": "清平乐·春归何处",
-        "id": "77c2f794-8134-11ea-9149-af5cd5c4fc93"
+        "id": "d8de9bc3-8255-11ea-9a8c-6f36b7b59df7"
       }
     ]
   ]

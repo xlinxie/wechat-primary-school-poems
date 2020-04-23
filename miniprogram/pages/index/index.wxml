@@ -7,13 +7,7 @@
   <view class="searchbar">
     <view class="inline-form-field">
       <image class="icon icon-search" src="/public/images/icon-search.svg" />
-      <input
-        type="text"
-        name="keyword"
-        placeholder="搜索古诗名、作者"
-        placeholder-class="placeholder"
-        bindfocus="navToSearch"
-      />
+      <view class="fake-input" bindtap="navToSearch">搜索古诗名、作者</view>
     </view>
   </view>
   <view class="content">
