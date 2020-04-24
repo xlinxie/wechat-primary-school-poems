@@ -1417,7 +1417,7 @@ export default [
               "楼"
             ],
             "pinyins": [
-              "gēng",
+              "gèng",
               "shàng",
               "yī",
               "céng",
@@ -12473,7 +12473,7 @@ export default [
             ],
             "pinyins": [
               "kè",
-              "shě",
+              "shè",
               "qīng",
               "qīng",
               "liǔ",

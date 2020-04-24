@@ -321,6 +321,7 @@ button:not([size='mini']) {
   align-items: flex-start;
   justify-content: space-between;
   padding-top: 22rpx;
+  padding-left: 16rpx;
   height: 124rpx;
   background: #fff;
   box-shadow: 0 -2rpx 2rpx 0 rgba(244,244,245,1);
@@ -332,13 +333,14 @@ button:not([size='mini']) {
   display: flex;
   align-items: center;
   z-index: 999;
+  margin-right: 32rpx;
 }
 
 .controls .toggle {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 44rpx;
+  padding: 0 32rpx;
   line-height: 28rpx;
   color: #4883F4;
   font-size: 20rpx;
@@ -359,6 +361,8 @@ button:not([size='mini']) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 2;
+  flex-grow: 2;
   margin: 0 32rpx !important;
   width: 400rpx;
   height: 80rpx;
@@ -367,4 +371,5 @@ button:not([size='mini']) {
   color: #fff;
   font-size: 32rpx;
   font-weight: 500;
+  transition: width 2s;
 }

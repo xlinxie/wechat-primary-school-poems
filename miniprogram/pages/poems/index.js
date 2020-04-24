@@ -1,11 +1,11 @@
 //index.js
 import Pages from '../../pages';
 import Poems from '../../utils/poems';
-import { Grades } from '../../utils/constants';
+import { Grades, Volumes } from '../../utils/constants';
 
 Page({
   data: {
-    volumes: ['上册', '下册'],
+    volumes: Volumes,
     volIndex: 0,
     tocs: [[], []],
     pages: Object.keys(Pages.grades).map((key) => Pages.grades[key].path)
@@ -14,6 +14,7 @@ Page({
   switchVol: function(e) {
     const { volIndex } = e.currentTarget.dataset;
     if (typeof volIndex === 'number') {
+      getApp().globalData.volIndex = volIndex;
       this.setData({ volIndex });
     }
   },
@@ -22,26 +23,44 @@ Page({
     if (!title) return;
 
     const { volIndex, volumes, pages, poems } = this.data;
-    const grade = getApp().globalData.grade;
+    const { grade } = getApp().globalData;
     getApp().globalData.poem = poems[volIndex].find((poem) => poem.title === title);
-    getApp().globalData.poemContentTitle = `${Grades[grade]} - ${volumes[volIndex]}`;
+    getApp().globalData.grade = grade;
     wx.navigateTo({ url: pages[grade] });
   },
 
-  onLoad: function() {
-    const { grade } = getApp().globalData;
+  onLoad: function(query) {
+    let { grade } = getApp().globalData;
+    getApp().globalData.volIndex = 0;
+
+    // 处理通过分享进页面的情况
+    if (query.grade) {
+      grade = +query.grade;
+      const volIndex = +query.volIndex;
+      getApp().globalData.grade = grade;
+      getApp().globalData.volIndex = volIndex;
+      this.setData({ volIndex });
+    }
+    wx.setNavigationBarTitle({ title: Grades[grade] });
+
+    let tocs = getApp().globalData.tocs[grade];
     const poemsOfGrade = Poems[grade];
-    const tocs = poemsOfGrade.map((vol) => {
+    if (tocs) {
+      this.setData({ tocs, poems: poemsOfGrade });
+      return;
+    }
+    tocs = poemsOfGrade.map((vol) => {
       const toc = vol.map(({ title, author, dynasty }) => ({ title, author, dynasty }));
       return toc;
     });
+    getApp().globalData.tocs[grade] = tocs;
     this.setData({ tocs, poems: poemsOfGrade });
-    wx.setNavigationBarTitle({ title: Grades[grade] });
   },
   onShareAppMessage() {
+    const { grade, volIndex } = getApp().globalData;
     return {
       title: '小学古诗知多少',
-      path: Pages.index.path,
+      path: `${Pages.poems.index.path}?grade=${grade}&volIndex=${volIndex}`,
     }
   }
 })

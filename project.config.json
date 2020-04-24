@@ -55,8 +55,8 @@
 				{
 					"id": 0,
 					"name": "pages/grades/two/index",
-					"pathName": "pages/grades/three/index",
-					"query": "",
+					"pathName": "pages/grades/one/content",
+					"query": "grade=0&volIndex=0&id=d8cf0b60-8255-11ea-9a8c-6f36b7b59df7",
 					"scene": null
 				}
 			]

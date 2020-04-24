@@ -19,7 +19,7 @@
       >
         <text
           class="pinyin"
-          wx:if="{{showPinyin}}"
+          wx:if="{{pinyinVisible}}"
         >{{line.pinyins[index]}}</text>
         <text class="character">{{character}}</text>
       </view>
@@ -51,24 +51,34 @@
   <view class="footer">
     <view class="controls">
       <view
-        class="toggle {{playAudio ? '' : 'disable'}}"
+        class="toggle {{audioPlaying ? '' : 'disable'}}"
         bindtap="playAudio"
-        data-title="{{poem.title}}"
       >
         <image
-          wx:if="{{!playAudio}}"
+          wx:if="{{!audioPlaying}}"
           class="icon icon-pacman"
           src="/public/images/icon-pacman.svg"
         />
         <image
-          wx:if="{{playAudio}}"
+          wx:if="{{audioPlaying}}"
           class="icon icon-pacman"
           src="/public/images/icon-pacman-read.gif"
         />
         朗诵
       </view>
       <view
-        class="toggle {{showPinyin ? '' : 'disable'}}"
+        wx:if="{{audioPlaying}}"
+        class="toggle"
+        bindtap="changeLoopMode"
+      >
+        <image
+          class="icon icon-loop-mode"
+          src="/public/images/icon-loop-{{loopMode.value}}.svg"
+        />
+        {{loopMode.name}}
+      </view>
+      <view
+        class="toggle {{pinyinVisible ? '' : 'disable'}}"
         bindtap="togglePinyin"
       >
         <image
