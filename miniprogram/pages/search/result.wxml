@@ -29,6 +29,7 @@
         bindtap="navToContent"
         data-id="{{item.id}}"
         data-grade="{{item.grade}}"
+        data-vol-index="{{item.volIndex}}"
       >
         <text class="counter">{{index + 1}}</text>
         <view class="wrapper">

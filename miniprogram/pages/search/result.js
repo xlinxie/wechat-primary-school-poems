@@ -9,10 +9,12 @@ Page({
     result: []
   },
   navToContent: function(e) {
-    const { grade, id } = e.currentTarget.dataset;
+    const { grade, volIndex, id } = e.currentTarget.dataset;
     const { pages, result } = this.data;
     const poem = result.find((poem) => poem.id === id);
     getApp().globalData.poem = poem;
+    getApp().globalData.grade = grade;
+    getApp().globalData.volIndex = volIndex;
     wx.navigateTo({ url: pages[grade] });
   },
   handleSubmit: function(e) {
@@ -26,21 +28,21 @@ Page({
   search: function(keyword) {
     const result = [];
     Poems.forEach((poemsOfGrade, grade) => {
-      poemsOfGrade.forEach((poems) => {
+      poemsOfGrade.forEach((poems, volIndex) => {
         poems.forEach((poem) => {
           if (poem.title.includes(keyword)) {
-            result.push({ grade, ...poem });
+            result.push({ grade, volIndex, ...poem });
             return;
           }
           if (poem.author.includes(keyword)) {
-            result.push({ grade, ...poem });
+            result.push({ grade, volIndex, ...poem });
             return;
           }
           const content = poem.lines.map(
             ({ characters }) => characters.join('')
           ).join(',');
           if (content.includes(keyword)) {
-            result.push({ grade, ...poem });
+            result.push({ grade, volIndex, ...poem });
             return;
           }
         })
